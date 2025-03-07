@@ -1,0 +1,54 @@
+---
+import ContentColumnContainer from "./ContentColumnContainer.astro";
+
+const links = [
+  { href: "/issues", text: "About" },
+  { href: "/issues", text: "Issues" },
+  { href: "/issues", text: "Donate" },
+  { href: "/issues", text: "Contact" },
+];
+---
+
+<header class="navbar">
+  <ContentColumnContainer class="h-full">
+    <div class="navbar-container">
+      <a href="/" class="navbar-logo">Adam Shin for Provo</a>
+      <nav class="navbar-links">
+        {links.map(link => (
+          <a href={link.href} class="nav-item">{link.text}</a>
+        ))}
+      </nav>
+    </div>
+  </ContentColumnContainer>
+</header>
+
+<style>
+  @reference "../styles/global.css";
+
+  .navbar {
+    --link-padding: 1rem;
+    @apply w-full;
+    @apply bg-white shadow-md;
+  }
+
+  .navbar-container {
+    @apply h-16;
+    @apply flex items-center justify-between space-x-4 overflow-hidden;
+  }
+
+  .navbar-logo {
+    @apply h-full flex items-center;
+    @apply text-2xl font-bold text-content-text whitespace-nowrap;
+  }
+
+  .navbar-links {
+    @apply h-full flex;
+    @apply -me-[var(--link-padding)];
+  }
+
+  .nav-item {
+    @apply h-full flex items-center px-[var(--link-padding)];
+    @apply font-medium text-content-text hover:text-sky-500;
+  }
+
+</style>
