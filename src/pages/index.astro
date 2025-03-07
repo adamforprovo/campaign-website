@@ -1,12 +1,15 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import ContentHeader from "../components/ContentHeader.astro"
+import ContentText from "../components/ContentText.astro";
 ---
-
 <MainLayout title="Home">
-  <div class="prose">
-    <h1>Welcome to My Campaign</h1>
-    <p>This is my page!</p>
-    <h2>Second heading</h2>
-    Just text it'"''""s by itself.
-  </div>
+  
+  <ContentHeader title="Home" />
+
+  <ContentText>
+    <h2>Coming soon</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </ContentText>
+
 </MainLayout>

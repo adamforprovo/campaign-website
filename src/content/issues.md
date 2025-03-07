@@ -11,7 +11,7 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 **What we can do:**
 
 * Clearly report our budget's bottom line so residents understand the financial health of our city.
-* Evaluate subsidies and expenses to determine whether they align with residents' interests.
+* Evaluate subsidies and expenses to determine whether they align with public interests.
 * Openly discuss funding gaps so we can plan ahead wisely, instead of dealing with sudden tax hikes.
 
 ## Housing and Growth
@@ -20,7 +20,7 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 
 ![image](../assets/house.jpg)
 
-Our housing crisis is pushing people away. If we don’t thoughtfully plan for growth, we risk becoming a commuter city—bearing the costs of traffic and congestion without receiving the benefits of a thriving local community. Responsible growth keeps neighborhoods strong and ensures a vibrant city.
+Our housing crisis is pushing people away. If we don’t thoughtfully plan for growth, we risk becoming a commuter city—bearing the costs of traffic and congestion without the benefits of a thriving local community. Responsible growth keeps neighborhoods strong and ensures a vibrant city.
 
 **What we can do:**
 
