@@ -1,6 +1,6 @@
 
 import { defineConfig } from 'astro/config';
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   vite: {
@@ -12,4 +12,5 @@ export default defineConfig({
     enabled: false 
   },
   site: 'https://adamforprovo.github.io',
+  base: '/campaign-website'
 });
