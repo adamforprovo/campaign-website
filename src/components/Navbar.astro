@@ -68,35 +68,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeButton = document.getElementById("nav-menu-close-button");
   const navMenu = document.getElementById("nav-menu");
 
-  if (!menuButton || !closeButton || !navMenu) return;
-
   function disableBackgroundScroll() {
-    document.body.style.position = "fixed";
-    document.body.style.top = `-${window.scrollY}px`;
-    document.body.style.width = "100vw";
+    document.body.style.overflowY = "hidden";
   }
 
   function enableBackgroundScroll() {
-    const scrollY = document.body.style.top;
-    document.body.style.position = "";
-    document.body.style.top = "";
-    document.body.style.width = "";
-    window.scrollTo(0, parseInt(scrollY || "0") * -1);
+    document.body.style.overflowY = "";
   }
 
-  menuButton.addEventListener("click", function () {
+  menuButton?.addEventListener("click", function () {
     disableBackgroundScroll();
-    window.scrollTo({ top: 0, behavior: "instant" });
-    navMenu.classList.add("menu-open");
+    navMenu?.classList.add("menu-open");
   });
 
-  closeButton.addEventListener("click", function () {
+  closeButton?.addEventListener("click", function () {
     enableBackgroundScroll();
-    navMenu.classList.remove("menu-open");
-  });
-
-  navMenu.addEventListener("touchmove", function (event) {
-    event.stopPropagation(); 
+    navMenu?.classList.remove("menu-open");
   });
 });
 </script>
@@ -143,20 +130,13 @@ document.addEventListener("DOMContentLoaded", function () {
   /* Nav Menu */
   .nav-menu {
     @apply fixed inset-0 bg-white z-50 flex flex-col items-start opacity-0 translate-y-full transition-all duration-300;
-    @apply overflow-y-auto; /* Enables scrolling inside the menu */
+    @apply overflow-y-auto;
   }
 
-  /* Open State */
   .menu-open {
     @apply opacity-100 translate-y-0;
   }
 
-  /* Prevent Page Scrolling */
-  .no-scroll {
-    @apply overflow-hidden fixed inset-0 w-full h-full;
-  }
-
-  /* 🔹 Nav Menu Items */
   .nav-menu-nav {
     @apply w-full py-16 flex flex-col;
   }
@@ -165,10 +145,10 @@ document.addEventListener("DOMContentLoaded", function () {
     @apply text-[1.8rem] font-semibold text-content-text w-full px-12 py-3;
   }
 
-  /* Close Button */
   .nav-menu-close-button {
     @apply absolute top-0 right-0 size-14;
     @apply flex items-center justify-center;
     @apply cursor-pointer;
   }
+
 </style>
