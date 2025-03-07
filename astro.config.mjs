@@ -10,5 +10,6 @@ export default defineConfig({
   },
   devToolbar: { 
     enabled: false 
-  }
+  },
+  site: 'https://adamforprovo.github.io',
 });
