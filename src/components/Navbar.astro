@@ -12,14 +12,17 @@ const links = [
     <div class="navbar-container">
       <a href="/" class="navbar-logo">Adam Shin for Provo</a>
 
+      <!-- Desktop Navigation -->
       <nav class="navbar-links">
         {links.map(link => (
           <a href={link.href} class="nav-item">{link.text}</a>
         ))}
       </nav>
 
-      <button class="hamburger-button">
-        <svg class="size-6 text-content-text" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Hamburger Button -->
+      <button id="menu-toggle" class="hamburger-button">
+        <svg class="size-6 text-content-text transition-transform duration-300" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="4" y1="6" x2="20" y2="6"></line>
           <line x1="4" y1="12" x2="20" y2="12"></line>
           <line x1="4" y1="18" x2="20" y2="18"></line>
@@ -27,7 +30,38 @@ const links = [
       </button>
     </div>
   </div>
+
+  <!-- Fullscreen Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu menu-closed">
+    <button class="close-button" id="close-menu">✕</button>
+    <nav class="mobile-nav">
+      {links.map(link => (
+        <a href={link.href} class="mobile-nav-item">{link.text}</a>
+      ))}
+    </nav>
+  </div>
 </header>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-toggle");
+    const closeButton = document.getElementById("close-menu");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (!menuToggle || !closeButton || !mobileMenu) { return; }
+
+    menuToggle.addEventListener("click", function () {
+      document.body.classList.add("no-scroll");
+      window.scrollTo({ top: 0, behavior: "instant" });
+      mobileMenu.classList.add("menu-open");
+    });
+
+    closeButton.addEventListener("click", function () {
+      document.body.classList.remove("no-scroll");
+      mobileMenu.classList.remove("menu-open");
+    });
+  });
+</script>
 
 <style>
   @reference "../styles/global.css";
@@ -42,36 +76,56 @@ const links = [
 
   .navbar {
     --link-padding: 1rem;
-
-    @apply w-full h-14 navbar-break:h-16;
-    @apply bg-white shadow-lg;
+    @apply w-full h-14 navbar-break:h-16 bg-white shadow-lg;
   }
 
   .navbar-container {
-    @apply h-full;
-    @apply flex items-center justify-between overflow-hidden;
+    @apply h-full flex items-center justify-between overflow-hidden;
   }
 
   .navbar-logo {
-    @apply h-full flex items-center;
-    @apply text-xl navbar-break:text-2xl;
-    @apply font-bold text-content-text whitespace-nowrap overflow-hidden;
+    @apply h-full flex items-center text-xl navbar-break:text-2xl font-bold text-content-text whitespace-nowrap overflow-hidden;
   }
 
   .navbar-links {
-    @apply h-full;
-    @apply hidden navbar-break:flex;
-    @apply -me-[var(--link-padding)];
+    @apply h-full hidden navbar-break:flex -me-[var(--link-padding)];
   }
 
   .nav-item {
-    @apply h-full flex items-center px-[var(--link-padding)];
-    @apply text-base font-medium text-content-text hover:text-sky-500;
+    @apply h-full flex items-center px-[var(--link-padding)] text-base font-medium text-content-text hover:text-sky-500;
   }
 
   .hamburger-button {
-    @apply h-full px-4 -me-4;
-    @apply navbar-break:hidden;
+    @apply h-full px-4 -me-4 navbar-break:hidden;
   }
 
+  /* 🔹 Fullscreen Mobile Menu */
+  .mobile-menu {
+    @apply fixed inset-0 bg-white z-50 flex flex-col items-start opacity-0 translate-y-full transition-all duration-300;
+    @apply overflow-y-auto; /* Enables scrolling inside the menu */
+  }
+
+  /* Open State */
+  .menu-open {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Prevent Page Scrolling */
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  /* 🔹 Mobile Menu Items */
+  .mobile-nav {
+    @apply w-full py-16 flex flex-col;
+  }
+
+  .mobile-nav-item {
+    @apply text-[1.8rem] font-semibold text-content-text w-full px-12 py-3;
+  }
+
+  /* Close Button */
+  .close-button {
+    @apply absolute top-4 right-4 text-3xl text-content-text;
+  }
 </style>
