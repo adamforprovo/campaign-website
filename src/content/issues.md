@@ -1,5 +1,7 @@
 Provo is a great place to live. As we grow, we face important decisions about our future. Let's build a Provo where longtime residents, young families, and future generations can all feel at home.
 
+![image](../assets/mountain1.JPG)
+
 ## Financial Transparency
 
 **Provo residents deserve to clearly understand how their money is spent.**
