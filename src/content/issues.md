@@ -1,10 +1,3 @@
----
-layout: ../layouts/MainLayout.astro
-title: Issues
----
-
-# Issues
-
 Provo is a great place to live. As we grow, we face important decisions about our future. Let's build a Provo where longtime residents, young families, and future generations can all feel at home.
 
 ## Financial Transparency

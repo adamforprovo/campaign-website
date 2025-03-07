@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.content-text {
+  @apply text-lg text-gray-800 leading-relaxed;
+}
