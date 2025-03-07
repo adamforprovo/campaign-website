@@ -21,7 +21,7 @@ const links = [
 
       <!-- Hamburger Button -->
       <button id="menu-toggle" class="hamburger-button">
-        <svg class="size-6 text-content-text transition-transform duration-300" viewBox="0 0 24 24" fill="none"
+        <svg class="size-6 text-content-text" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="4" y1="6" x2="20" y2="6"></line>
           <line x1="4" y1="12" x2="20" y2="12"></line>
@@ -33,7 +33,15 @@ const links = [
 
   <!-- Fullscreen Mobile Menu -->
   <div id="mobile-menu" class="mobile-menu menu-closed">
-    <button class="close-button" id="close-menu">✕</button>
+    <button id="close-menu" class="close-button">
+      <svg class="size-6 text-content-text"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+        stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="5" x2="19" y2="19"></line>
+        <line x1="5" y1="19" x2="19" y2="5"></line>
+      </svg>
+    </button>
+
     <nav class="mobile-nav">
       {links.map(link => (
         <a href={link.href} class="mobile-nav-item">{link.text}</a>
@@ -71,7 +79,7 @@ const links = [
   }
 
   .content-column-container {
-    @apply h-full mx-auto px-4 navbar-break:px-8 max-w-(--breakpoint-md);
+    @apply h-full mx-auto ps-4 navbar-break:px-8 max-w-(--breakpoint-md);
   }
 
   .navbar {
@@ -96,7 +104,10 @@ const links = [
   }
 
   .hamburger-button {
-    @apply h-full px-4 -me-4 navbar-break:hidden;
+    @apply h-full w-14;
+    @apply flex items-center justify-center;
+    @apply cursor-pointer;
+    @apply navbar-break:hidden;
   }
 
   /* 🔹 Fullscreen Mobile Menu */
@@ -126,6 +137,8 @@ const links = [
 
   /* Close Button */
   .close-button {
-    @apply absolute top-4 right-4 text-3xl text-content-text;
+    @apply absolute top-0 right-0 size-14;
+    @apply flex items-center justify-center;
+    @apply cursor-pointer;
   }
 </style>
