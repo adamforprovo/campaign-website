@@ -1,4 +1,9 @@
 ---
+import type { ACTION_ERROR_CODES } from "astro:actions";
+
+import menuOpenIcon from '../assets/menu-open.svg';
+import menuCloseIcon from '../assets/menu-close.svg';
+
 const links = [
   { href: "/about", text: "About" },
   { href: "/issues", text: "Issues" },
@@ -21,12 +26,7 @@ const links = [
 
       <!-- Menu Button -->
       <button id="menu-button" class="menu-button">
-        <svg class="size-6 text-content-text" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="4" y1="6" x2="20" y2="6"></line>
-          <line x1="4" y1="12" x2="20" y2="12"></line>
-          <line x1="4" y1="18" x2="20" y2="18"></line>
-        </svg>
+        <img src={menuOpenIcon.src} class="size-6" style="stroke: #ff00ff">
       </button>
     </div>
   </div>
@@ -34,12 +34,7 @@ const links = [
   <!-- Nav Menu -->
   <div id="nav-menu" class="nav-menu nav-menu-closed">
     <button id="nav-menu-close-button" class="nav-menu-close-button">
-      <svg class="size-6 text-content-text"
-        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
-        stroke-linecap="round" stroke-linejoin="round">
-        <line x1="5" y1="5" x2="19" y2="19"></line>
-        <line x1="5" y1="19" x2="19" y2="5"></line>
-      </svg>
+      <img src={menuCloseIcon.src} class="size-6">
     </button>
 
     <nav class="nav-menu-nav">
