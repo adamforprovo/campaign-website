@@ -10,7 +10,7 @@ const links = [
 ---
 
 <header class="navbar">
-  <ContentColumnContainer class="h-full">
+  <ContentColumnContainer>
     <div class="navbar-container">
       <a href="/" class="navbar-logo">Adam Shin for Provo</a>
       <nav class="navbar-links">
@@ -27,18 +27,19 @@ const links = [
 
   .navbar {
     --link-padding: 1rem;
-    @apply w-full;
-    @apply bg-white shadow-md;
+
+    @apply w-full h-16;
+    @apply bg-white shadow-lg;
   }
 
   .navbar-container {
-    @apply h-16;
+    @apply h-full;
     @apply flex items-center justify-between space-x-4 overflow-hidden;
   }
 
   .navbar-logo {
     @apply h-full flex items-center;
-    @apply text-2xl font-bold text-content-text whitespace-nowrap;
+    @apply text-xl font-bold text-content-text whitespace-nowrap;
   }
 
   .navbar-links {
