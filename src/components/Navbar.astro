@@ -33,7 +33,7 @@ const links = [
   @reference "../styles/global.css";
 
   @theme {
-    --breakpoint-navbar-break: 40rem;
+    --breakpoint-navbar-break: 48rem;
   }
 
   .content-column-container {
@@ -49,13 +49,13 @@ const links = [
 
   .navbar-container {
     @apply h-full;
-    @apply flex items-center justify-between space-x-4 overflow-hidden;
+    @apply flex items-center justify-between overflow-hidden;
   }
 
   .navbar-logo {
     @apply h-full flex items-center;
     @apply text-xl navbar-break:text-2xl;
-    @apply font-bold text-content-text whitespace-nowrap;
+    @apply font-bold text-content-text whitespace-nowrap overflow-hidden;
   }
 
   .navbar-links {
