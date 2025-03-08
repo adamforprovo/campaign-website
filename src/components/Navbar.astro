@@ -49,13 +49,24 @@ document.addEventListener("DOMContentLoaded", function () {
   const navMenuCloseButton = document.getElementById("nav-menu-close-button");
   const navMenu = document.getElementById("nav-menu");
 
-  function showMenu() {
-    navMenu?.classList.remove("nav-menu-closed");
-    navMenu?.classList.add("nav-menu-open");
-  }
   function hideMenu() {
     navMenu?.classList.remove("nav-menu-open");
+    navMenu?.classList.remove("nav-menu-open-animation");
     navMenu?.classList.add("nav-menu-closed");
+    navMenu?.classList.add("nav-menu-closed-animation");
+  }
+
+  function showMenuAnimated() {
+    navMenu?.classList.remove("nav-menu-closed");
+    navMenu?.classList.remove("nav-menu-closed-animation");
+    navMenu?.classList.add("nav-menu-open");
+    navMenu?.classList.add("nav-menu-open-animation");
+  }
+  function hideMenuAnimated() {
+    navMenu?.classList.remove("nav-menu-open");
+    navMenu?.classList.remove("nav-menu-open-animation");
+    navMenu?.classList.add("nav-menu-closed");
+    navMenu?.classList.add("nav-menu-closed-animation");
   }
 
   function disableBackgroundScroll() {
@@ -65,13 +76,15 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.overflowY = "";
   }
 
+  window.addEventListener("pageshow", hideMenu);
+
   menuButton?.addEventListener("click", function () {
     disableBackgroundScroll();
-    showMenu();
+    showMenuAnimated();
   });
   navMenuCloseButton?.addEventListener("click", function () {
     enableBackgroundScroll();
-    hideMenu();
+    hideMenuAnimated();
   });
 });
 </script>
@@ -116,18 +129,27 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* Nav Menu */
+
   .nav-menu {
     @apply fixed inset-0 bg-white z-50 flex flex-col items-start;
     @apply overflow-y-auto;
   }
 
   .nav-menu-open {
-    @apply opacity-100 transition-all duration-300 ease-out;
+    @apply opacity-100;
   }
 
   .nav-menu-closed {
-    @apply opacity-0 translate-x-[25%] transition-all duration-200 ease-in;
+    @apply opacity-0 translate-x-[25%];
     @apply pointer-events-none;
+  }
+
+  .nav-menu-open-animation {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .nav-menu-closed-animation {
+    @apply transition-all duration-150 ease-in;
   }
 
   .nav-menu-nav {
