@@ -43,52 +43,6 @@ const links = [
   </div>
 </header>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const menuButton = document.getElementById("menu-button");
-  const navMenuCloseButton = document.getElementById("nav-menu-close-button");
-  const navMenu = document.getElementById("nav-menu");
-
-  function hideMenu() {
-    navMenu?.classList.remove("nav-menu-open");
-    navMenu?.classList.remove("nav-menu-open-animation");
-    navMenu?.classList.add("nav-menu-closed");
-    navMenu?.classList.add("nav-menu-closed-animation");
-  }
-
-  function showMenuAnimated() {
-    navMenu?.classList.remove("nav-menu-closed");
-    navMenu?.classList.remove("nav-menu-closed-animation");
-    navMenu?.classList.add("nav-menu-open");
-    navMenu?.classList.add("nav-menu-open-animation");
-  }
-  function hideMenuAnimated() {
-    navMenu?.classList.remove("nav-menu-open");
-    navMenu?.classList.remove("nav-menu-open-animation");
-    navMenu?.classList.add("nav-menu-closed");
-    navMenu?.classList.add("nav-menu-closed-animation");
-  }
-
-  function disableBackgroundScroll() {
-    document.body.style.overflowY = "hidden";
-  }
-  function enableBackgroundScroll() {
-    document.body.style.overflowY = "";
-  }
-
-  window.addEventListener("pageshow", hideMenu);
-
-  menuButton?.addEventListener("click", function () {
-    disableBackgroundScroll();
-    showMenuAnimated();
-  });
-  navMenuCloseButton?.addEventListener("click", function () {
-    enableBackgroundScroll();
-    hideMenuAnimated();
-  });
-});
-</script>
-
 <style>
   @reference "../styles/global.css";
 
@@ -167,3 +121,48 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menu-button");
+  const navMenuCloseButton = document.getElementById("nav-menu-close-button");
+  const navMenu = document.getElementById("nav-menu");
+
+  function hideMenu() {
+    navMenu?.classList.remove("nav-menu-open");
+    navMenu?.classList.remove("nav-menu-open-animation");
+    navMenu?.classList.add("nav-menu-closed");
+  }
+
+  function showMenuAnimated() {
+    navMenu?.classList.remove("nav-menu-closed");
+    navMenu?.classList.remove("nav-menu-closed-animation");
+    navMenu?.classList.add("nav-menu-open");
+    navMenu?.classList.add("nav-menu-open-animation");
+  }
+  function hideMenuAnimated() {
+    navMenu?.classList.remove("nav-menu-open");
+    navMenu?.classList.remove("nav-menu-open-animation");
+    navMenu?.classList.add("nav-menu-closed");
+    navMenu?.classList.add("nav-menu-closed-animation");
+  }
+
+  function disableBackgroundScroll() {
+    document.body.style.overflowY = "hidden";
+  }
+  function enableBackgroundScroll() {
+    document.body.style.overflowY = "";
+  }
+
+  window.addEventListener("pageshow", hideMenu);
+
+  menuButton?.addEventListener("click", function () {
+    disableBackgroundScroll();
+    showMenuAnimated();
+  });
+  navMenuCloseButton?.addEventListener("click", function () {
+    enableBackgroundScroll();
+    hideMenuAnimated();
+  });
+});
+</script>
