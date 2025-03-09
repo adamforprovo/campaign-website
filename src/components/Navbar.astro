@@ -1,6 +1,6 @@
 ---
-import menuOpenIcon from '../assets/menu-open.svg';
-import menuCloseIcon from '../assets/menu-close.svg';
+import menuOpenIcon from '../assets/nav-menu-open.svg';
+import menuCloseIcon from '../assets/nav-menu-close.svg';
 
 const links = [
   { href: "/about", text: "About" },
@@ -24,7 +24,7 @@ const links = [
 
       <!-- Menu Button -->
       <button id="menu-button" class="menu-button">
-        <img src={menuOpenIcon.src} class="size-6" style="stroke: #ff00ff">
+        <img src={menuOpenIcon.src} class="button-img size-6" style="stroke: #ff00ff">
       </button>
     </div>
   </div>
@@ -32,12 +32,12 @@ const links = [
   <!-- Nav Menu -->
   <div id="nav-menu" class="nav-menu nav-menu-closed">
     <button id="nav-menu-close-button" class="nav-menu-close-button">
-      <img src={menuCloseIcon.src} class="size-6">
+      <img src={menuCloseIcon.src} class="button-img size-6">
     </button>
 
-    <nav class="nav-menu-nav">
+    <nav class="nav-menu-list">
       {links.map(link => (
-        <a href={link.href} class="nav-menu-nav-item">{link.text}</a>
+        <a href={link.href} class="nav-menu-list-item">{link.text}</a>
       ))}
     </nav>
   </div>
@@ -65,6 +65,8 @@ const links = [
 
   .navbar-logo {
     @apply h-full flex items-center text-xl navbar-break:text-2xl font-bold text-content-text whitespace-nowrap overflow-hidden;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   .navbar-links {
@@ -76,10 +78,17 @@ const links = [
   }
 
   .menu-button {
-    @apply h-full w-14;
+    @apply h-full w-14 opacity-75;
     @apply flex items-center justify-center;
     @apply cursor-pointer;
     @apply navbar-break:hidden;
+  }
+
+  .button-img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
   }
 
   /* Nav Menu */
@@ -106,16 +115,16 @@ const links = [
     @apply transition-all duration-150 ease-in;
   }
 
-  .nav-menu-nav {
-    @apply w-full py-20 flex flex-col;
+  .nav-menu-list {
+    @apply w-full py-16 flex flex-col;
   }
 
-  .nav-menu-nav-item {
-    @apply text-[1.8rem] font-semibold text-content-text w-full px-12 py-3;
+  .nav-menu-list-item {
+    @apply text-[1.75rem] font-semibold text-content-text w-full px-12 py-2;
   }
 
   .nav-menu-close-button {
-    @apply absolute top-0 right-0 size-14;
+    @apply absolute top-0 right-0 size-14 opacity-75;
     @apply flex items-center justify-center;
     @apply cursor-pointer;
   }
