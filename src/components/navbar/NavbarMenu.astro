@@ -9,7 +9,7 @@ const links = [
 ];
 ---
 
-<div id="navbar-menu" class="navbar-menu">
+<div id="navbar-menu" class="navbar-menu navbar-menu-closed">
   <div id="navbar-menu-curtain" class="navbar-menu-curtain"/>
 
   <div class="navbar-menu-contents">
@@ -178,7 +178,7 @@ const links = [
 
     closeMenu();
 
-    window.addEventListener("pagehide", () => {
+    window.addEventListener("pageshow", () => {
       closeMenu();
     });
     document.addEventListener("NavbarMenuOpen", () => {
