@@ -8,7 +8,7 @@ Provo is a great place to live. As we grow, we face important decisions about ou
 
 Right now, Provo’s financial processes are difficult to understand. Citizens deserve straightforward answers. Transparency builds trust, ensures accountability, and helps us avoid unexpected financial crises.
 
-**What we can do:**
+**Solutions:**
 
 * Clearly report our budget's bottom line so residents understand the financial health of our city.
 * Evaluate subsidies and expenses to determine whether they align with public interests.
@@ -22,7 +22,7 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 
 Our housing crisis is pushing people away. If we don’t thoughtfully plan for growth, we risk becoming a commuter city—bearing the costs of traffic and congestion without the benefits of a thriving local community. Responsible growth keeps neighborhoods strong and ensures a vibrant city.
 
-**What we can do:**
+**Solutions:**
 
 * Allow gentle zoning reforms (backyard cottages, duplexes, townhomes) that fit naturally into existing neighborhoods.
 * Streamline the permitting process for neighborhood-scale housing projects.
@@ -34,7 +34,7 @@ Our housing crisis is pushing people away. If we don’t thoughtfully plan for g
 
 Too many of our streets prioritize speed over safety, creating dangerous conditions—especially for children walking or biking to school. Safer streets protect lives, promote community health, and strengthen neighborhoods.
 
-**What we can do:**
+**Solutions:**
 
 * Identify key safety hotspots near schools, parks, and the university.
 * Invest in affordable traffic-calming measures like painted crosswalks, curb extensions, and bollards.
@@ -46,7 +46,7 @@ Too many of our streets prioritize speed over safety, creating dangerous conditi
 
 As Provo grows, we must maintain and improve access to our parks, trails, and outdoor amenities. These spaces promote health, encourage family activities, and protect our unique environment. They are a vital investment in our community’s long-term future.
 
-**What we can do:**
+**Solutions:**
 
 * Prioritize maintaining and enhancing the Provo River Trail—one of our most popular and heavily-used outdoor assets.
 * Improve connections between neighborhoods and parks to ensure safe, easy, and pleasant access.
