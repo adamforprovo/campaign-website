@@ -17,7 +17,7 @@ const links = [
       <img src={menuCloseIcon.src} class="button-img size-6">
     </button>
 
-    <nav class="navbar-menu-list">
+    <nav class="navbar-menu-list" id="navbar-menu-list">
       {links.map(link => (
         <a href={link.href} class="navbar-menu-list-item">{link.text}</a>
       ))}
@@ -29,16 +29,21 @@ const links = [
   @reference "../../styles/global.css";
 
   /* Menu */
-  .navbar-menu {
-    @apply fixed w-screen h-screen inset-0;
-  }
 
-  .navbar-menu-open {
-    @apply visible;
+  .navbar-menu {
+    --main-animation-duration: 500ms;
+
+    @apply fixed w-screen h-screen inset-0;
+    @apply bg-white/50;
   }
 
   .navbar-menu-closed {
-    @apply invisible;
+    @apply invisible bg-white/0;
+  }
+
+  .navbar-menu-animating {
+    @apply transition-[visibility, background-color];
+    @apply duration-[var(--main-animation-duration)] ease-in-out;
   }
 
   /* Curtain */
@@ -48,10 +53,14 @@ const links = [
     @apply bg-white;
   }
 
-  .navbar-menu-curtain-open { }
-
   .navbar-menu-curtain-closed {
-    @apply h-14;
+    /* @apply h-14 opacity-0; */
+    @apply h-0;
+  }
+
+  .navbar-menu-curtain-animating {
+    @apply transition-[opacity, height];
+    @apply duration-[var(--main-animation-duration)] ease-in-out;
   }
 
   /* Contents */
@@ -59,6 +68,26 @@ const links = [
   .navbar-menu-contents {
     @apply absolute inset-0 overflow-y-auto;
   }
+
+  /* Close Button */
+
+  .navbar-menu-close-button {
+    @apply absolute top-0 right-0 size-14 opacity-75;
+    @apply flex items-center justify-center;
+    @apply cursor-pointer;
+    @apply opacity-100;
+  }
+
+  .navbar-menu-close-button-closed {
+    @apply opacity-0;
+  }
+
+  .navbar-menu-close-button-animating {
+    @apply transition-[opacity];
+    @apply duration-[var(--main-animation-duration)] ease-in-out;
+  }
+
+  /* List */
 
   .navbar-menu-list {
     @apply w-full py-16 flex flex-col items-start;
@@ -68,18 +97,27 @@ const links = [
     @apply text-[1.75rem] font-semibold text-content-text w-full px-12 py-2;
   }
 
-  .navbar-menu-close-button {
-    @apply absolute top-0 right-0 size-14 opacity-75;
-    @apply flex items-center justify-center;
-    @apply cursor-pointer;
+  .navbar-menu-list-closed { 
+    @apply opacity-0 -translate-y-4;
   }
+
+  .navbar-menu-list-animating-open {
+    @apply transition-[opacity, translate] duration-300 delay-200 ease-in-out;
+  }
+
+  .navbar-menu-list-animating-closed {
+    @apply transition-[opacity, translate] duration-300 ease-in-out;
+  }
+
 </style>
 
 <script>
+
   document.addEventListener("DOMContentLoaded", () => {
     const menu = document.getElementById("navbar-menu");
     const curtain = document.getElementById("navbar-menu-curtain");
     const closeButton = document.getElementById("navbar-menu-close-button");
+    const list = document.getElementById("navbar-menu-list");
 
     function disableBackgroundScroll() {
       document.documentElement.style.overflow = "hidden";
@@ -91,39 +129,56 @@ const links = [
       document.body.style.overflow = "";
     }
 
-    function closeMenu() {
-      enableBackgroundScroll();
-
-      menu?.classList.remove("navbar-menu-open");
-      curtain?.classList.remove("navbar-menu-curtain-open");
-
-      menu?.classList.add("navbar-menu-closed");
-      curtain?.classList.add("navbar-menu-curtain-closed");
+    function addAnimationClass(element: HTMLElement | null, className: string) {
+      element?.classList.add(className);
+      
+      function removeClass(event: TransitionEvent) {
+        if (event.target !== element) return;
+        element?.classList.remove(className);
+        element?.removeEventListener("transitionend", removeClass);
+      }
+      element?.addEventListener("transitionend", removeClass);
     }
 
-    function openMenuAnimated() {
+    function openMenu() {
       disableBackgroundScroll();
 
       menu?.classList.remove("navbar-menu-closed");
       curtain?.classList.remove("navbar-menu-curtain-closed");
-
-      menu?.classList.add("navbar-menu-open");
-      curtain?.classList.add("navbar-menu-curtain-open");
+      closeButton?.classList.remove("navbar-menu-close-button-closed");
+      list?.classList.remove("navbar-menu-list-closed");
     }
 
-    function closeMenuAnimated() {
+    function closeMenu() {
       enableBackgroundScroll();
-
-      menu?.classList.remove("navbar-menu-open");
-      curtain?.classList.remove("navbar-menu-curtain-open");
 
       menu?.classList.add("navbar-menu-closed");
       curtain?.classList.add("navbar-menu-curtain-closed");
+      closeButton?.classList.add("navbar-menu-close-button-closed");
+      list?.classList.add("navbar-menu-list-closed");
+    }
+
+    function openMenuAnimated() {
+      openMenu();
+
+      addAnimationClass(menu, "navbar-menu-animating");
+      addAnimationClass(curtain, "navbar-menu-curtain-animating");
+      addAnimationClass(closeButton, "navbar-menu-close-button-animating");
+      addAnimationClass(list, "navbar-menu-list-animating-open");
+    }
+
+    function closeMenuAnimated() {
+      closeMenu();
+
+      addAnimationClass(menu, "navbar-menu-animating");
+      addAnimationClass(curtain, "navbar-menu-curtain-animating");
+      addAnimationClass(closeButton, "navbar-menu-close-button-animating");
+      addAnimationClass(list, "navbar-menu-list-animating-closed");
     }
 
     closeMenu();
 
-    window.addEventListener("pageshow", () => {
+    window.addEventListener("pagehide", () => {
       closeMenu();
     });
     document.addEventListener("NavbarMenuOpen", () => {
@@ -133,4 +188,5 @@ const links = [
       closeMenuAnimated();
     });
   });
+
 </script>
