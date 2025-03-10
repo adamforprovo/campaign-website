@@ -9,7 +9,9 @@ const links = [
 ];
 ---
 
-<div id="navbar-menu" class="navbar-menu navbar-menu-closed">
+<div id="navbar-menu" class="navbar-menu">
+  <div id="navbar-menu-curtain" class="navbar-menu-curtain"/>
+
   <div class="navbar-menu-contents">
     <button id="navbar-menu-close-button" class="navbar-menu-close-button">
       <img src={menuCloseIcon.src} class="button-img size-6">
@@ -26,30 +28,36 @@ const links = [
 <style>
   @reference "../../styles/global.css";
 
+  /* Menu */
   .navbar-menu {
-    @apply fixed w-screen h-screen top-0 left-0;
-    @apply bg-white;
-    @apply overflow-hidden;
+    @apply fixed w-screen h-screen inset-0;
   }
 
   .navbar-menu-open {
-    @apply visible opacity-100;
+    @apply visible;
   }
 
   .navbar-menu-closed {
-    @apply invisible opacity-0 h-14;
+    @apply invisible;
   }
 
-  .navbar-menu-open-animation {
-    @apply transition-all duration-500 ease-in-out;
+  /* Curtain */
+
+  .navbar-menu-curtain {
+    @apply absolute size-full inset-0;
+    @apply bg-white;
   }
 
-  .navbar-menu-closed-animation {
-    @apply transition-all duration-500 ease-in-out;
+  .navbar-menu-curtain-open { }
+
+  .navbar-menu-curtain-closed {
+    @apply h-14;
   }
+
+  /* Contents */
 
   .navbar-menu-contents {
-    @apply size-full overflow-y-auto;
+    @apply absolute inset-0 overflow-y-auto;
   }
 
   .navbar-menu-list {
@@ -70,42 +78,59 @@ const links = [
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const menu = document.getElementById("navbar-menu");
+    const curtain = document.getElementById("navbar-menu-curtain");
     const closeButton = document.getElementById("navbar-menu-close-button");
 
     function disableBackgroundScroll() {
-      document.body.style.overflowY = "hidden";
-    }
-    function enableBackgroundScroll() {
-      document.body.style.overflowY = "";
+      document.documentElement.style.overflow = "hidden";
+      document.body.style.overflow = "hidden";
     }
 
-    function openMenu(animated: boolean) {
-      disableBackgroundScroll();
-      menu?.classList.remove("navbar-menu-closed");
-      menu?.classList.remove("navbar-menu-closed-animation");
-      menu?.classList.add("navbar-menu-open");
-      if (animated) {
-        menu?.classList.add("navbar-menu-open-animation");
-      }
+    function enableBackgroundScroll() {
+      document.documentElement.style.overflow = "";
+      document.body.style.overflow = "";
     }
-    function closeMenu(animated: boolean) {
+
+    function closeMenu() {
       enableBackgroundScroll();
+
       menu?.classList.remove("navbar-menu-open");
-      menu?.classList.remove("navbar-menu-open-animation");
+      curtain?.classList.remove("navbar-menu-curtain-open");
+
       menu?.classList.add("navbar-menu-closed");
-      if (animated) {
-        menu?.classList.add("navbar-menu-closed-animation");
-      }
+      curtain?.classList.add("navbar-menu-curtain-closed");
     }
+
+    function openMenuAnimated() {
+      disableBackgroundScroll();
+
+      menu?.classList.remove("navbar-menu-closed");
+      curtain?.classList.remove("navbar-menu-curtain-closed");
+
+      menu?.classList.add("navbar-menu-open");
+      curtain?.classList.add("navbar-menu-curtain-open");
+    }
+
+    function closeMenuAnimated() {
+      enableBackgroundScroll();
+
+      menu?.classList.remove("navbar-menu-open");
+      curtain?.classList.remove("navbar-menu-curtain-open");
+
+      menu?.classList.add("navbar-menu-closed");
+      curtain?.classList.add("navbar-menu-curtain-closed");
+    }
+
+    closeMenu();
 
     window.addEventListener("pageshow", () => {
-      closeMenu(false);
+      closeMenu();
     });
     document.addEventListener("NavbarMenuOpen", () => {
-      openMenu(true);
+      openMenuAnimated();
     });
     closeButton?.addEventListener("click", () => {
-      closeMenu(true);
+      closeMenuAnimated();
     });
   });
 </script>
