@@ -1,0 +1,89 @@
+---
+import menuOpenIcon from '../../assets/nav-menu-open.svg';
+import NavbarMenu from './NavbarMenu.astro';
+
+const links = [
+  { href: "/about", text: "About" },
+  { href: "/issues", text: "Issues" },
+  { href: "/donate", text: "Donate" },
+  { href: "/contact", text: "Contact" },
+];
+---
+
+<header class="navbar">
+  <NavbarMenu />
+
+  <div class="navbar-column-container">
+    <div class="navbar-container">
+      <a href="/" class="navbar-logo">Adam Shin for Provo</a>
+
+      <nav class="navbar-links">
+        {links.map(link => (
+          <a href={link.href} class="navbar-links-item">{link.text}</a>
+        ))}
+      </nav>
+
+      <button id="navbar-menu-button" class="navbar-menu-button">
+        <img src={menuOpenIcon.src} class="navbar-button-img size-6" style="stroke: #ff00ff">
+      </button>
+    </div>
+  </div>
+</header>
+
+<style>
+  @reference "../../styles/global.css";
+
+  @theme {
+    --breakpoint-navbar-break: 48rem;
+  }
+
+  .navbar {
+    --link-padding: 1rem;
+    @apply w-full h-14 navbar-break:h-16 bg-white shadow-lg;
+  }
+
+  .navbar-column-container {
+    @apply h-full mx-auto ps-4 navbar-break:px-8 max-w-(--breakpoint-md);
+  }
+
+  .navbar-container {
+    @apply h-full flex items-center justify-between overflow-hidden;
+  }
+
+  .navbar-logo {
+    @apply h-full flex items-center text-xl navbar-break:text-2xl font-bold text-content-text whitespace-nowrap overflow-hidden;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .navbar-links {
+    @apply h-full hidden navbar-break:flex -me-[var(--link-padding)];
+  }
+
+  .navbar-links-item {
+    @apply h-full flex items-center px-[var(--link-padding)] text-base font-medium text-content-text hover:text-sky-500;
+  }
+
+  .navbar-menu-button {
+    @apply h-full w-14 opacity-75;
+    @apply flex items-center justify-center;
+    @apply cursor-pointer;
+    @apply navbar-break:hidden;
+  }
+
+  .navbar-button-img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuButton = document.getElementById("navbar-menu-button");
+    menuButton?.addEventListener("click", () => {
+      document.dispatchEvent(new CustomEvent("NavbarMenuOpen"));
+    });
+  });
+</script>

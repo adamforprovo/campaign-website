@@ -1,0 +1,104 @@
+---
+import menuCloseIcon from '../../assets/nav-menu-close.svg';
+
+const links = [
+  { href: "/about", text: "About" },
+  { href: "/issues", text: "Issues" },
+  { href: "/donate", text: "Donate" },
+  { href: "/contact", text: "Contact" },
+];
+---
+
+<div id="navbar-menu" class="navbar-menu navbar-menu-closed">
+  <button id="navbar-menu-close-button" class="navbar-menu-close-button">
+    <img src={menuCloseIcon.src} class="button-img size-6">
+  </button>
+
+  <nav class="navbar-menu-list">
+    {links.map(link => (
+      <a href={link.href} class="navbar-menu-list-item">{link.text}</a>
+    ))}
+  </nav>
+</div>
+
+<style>
+  @reference "../../styles/global.css";
+
+  .navbar-menu {
+    @apply fixed inset-0 bg-white z-50 flex flex-col items-start;
+    @apply overflow-y-auto;
+  }
+
+  .navbar-menu-open {
+    @apply visible opacity-100;
+  }
+
+  .navbar-menu-closed {
+    @apply invisible opacity-0 translate-x-[25%];
+  }
+
+  .navbar-menu-open-animation {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .navbar-menu-closed-animation {
+    @apply transition-all duration-150 ease-in;
+  }
+
+  .navbar-menu-list {
+    @apply w-full py-16 flex flex-col;
+  }
+
+  .navbar-menu-list-item {
+    @apply text-[1.75rem] font-semibold text-content-text w-full px-12 py-2;
+  }
+
+  .navbar-menu-close-button {
+    @apply absolute top-0 right-0 size-14 opacity-75;
+    @apply flex items-center justify-center;
+    @apply cursor-pointer;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menu = document.getElementById("navbar-menu");
+    const closeButton = document.getElementById("navbar-menu-close-button");
+
+    function disableBackgroundScroll() {
+      document.body.style.overflowY = "hidden";
+    }
+    function enableBackgroundScroll() {
+      document.body.style.overflowY = "";
+    }
+
+    function openMenu(animated: boolean) {
+      disableBackgroundScroll();
+      menu?.classList.remove("navbar-menu-closed");
+      menu?.classList.remove("navbar-menu-closed-animation");
+      menu?.classList.add("navbar-menu-open");
+      if (animated) {
+        menu?.classList.add("navbar-menu-open-animation");
+      }
+    }
+    function closeMenu(animated: boolean) {
+      enableBackgroundScroll();
+      menu?.classList.remove("navbar-menu-open");
+      menu?.classList.remove("navbar-menu-open-animation");
+      menu?.classList.add("navbar-menu-closed");
+      if (animated) {
+        menu?.classList.add("navbar-menu-closed-animation");
+      }
+    }
+
+    window.addEventListener("pageshow", () => {
+      closeMenu(false);
+    });
+    document.addEventListener("NavbarMenuOpen", () => {
+      openMenu(true);
+    });
+    closeButton?.addEventListener("click", () => {
+      closeMenu(true);
+    });
+  });
+</script>
