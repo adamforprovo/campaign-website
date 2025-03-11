@@ -14,7 +14,7 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 * Evaluate subsidies and expenses to determine whether they align with public interests.
 * Openly discuss funding gaps so we can plan ahead wisely, instead of dealing with sudden tax hikes.
 
-## Housing and Growth
+## Housing
 
 **Provo should be a city where longtime residents, young families, and students can all find a place to call home.**
 
@@ -28,7 +28,7 @@ Our housing crisis is pushing people away. If we don’t thoughtfully plan for g
 * Streamline the permitting process for neighborhood-scale housing projects.
 * Focus higher-density developments near transit hubs to minimize the impact of traffic.
 
-## Safe Streets
+## Street Safety
 
 **Provo’s streets should be safe for everyone, especially children.**
 
