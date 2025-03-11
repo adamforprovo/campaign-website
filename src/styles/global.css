@@ -4,4 +4,6 @@
   --breakpoint-xs: 30rem;
 
   --color-content-text: var(--color-gray-700);
+
+  --font-sans: "Inter", sans-serif;
 }

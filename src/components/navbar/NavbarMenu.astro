@@ -2,9 +2,10 @@
 import menuCloseIcon from '../../assets/nav-menu-close.svg';
 
 const links = [
+  { href: "/", text: "Home" },
   { href: "/about", text: "About" },
   { href: "/issues", text: "Issues" },
-  { href: "/donate", text: "Donate" },
+  { href: "/get-involved", text: "Get Involved" },
   { href: "/contact", text: "Contact" },
 ];
 ---
@@ -84,7 +85,7 @@ const links = [
 
   .navbar-menu-close-button-animating {
     @apply transition-[opacity];
-    @apply duration-[var(--main-animation-duration)] ease-in-out;
+    @apply duration-[var(--main-animation-duration)];
   }
 
   /* List */

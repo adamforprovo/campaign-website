@@ -1,8 +1,7 @@
-@import "tailwindcss";
 @import "./global.css";
 
 .content-text {
-  @apply text-base md:text-lg;
+  @apply text-sm md:text-base;
   @apply leading-relaxed;
   @apply mb-[4em];
 
