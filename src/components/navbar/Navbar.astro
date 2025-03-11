@@ -56,11 +56,11 @@ const links = [
   }
 
   .navbar-links {
-    @apply h-full hidden navbar-break:flex -me-[var(--link-padding)];
+    @apply h-full hidden navbar-break:flex -me-(--link-padding);
   }
 
   .navbar-links-item {
-    @apply h-full flex items-center px-[var(--link-padding)];
+    @apply h-full flex items-center px-(--link-padding);
     @apply text-[1rem] font-medium text-content-primary;
     @apply hover:text-sky-500;
   }

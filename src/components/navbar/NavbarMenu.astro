@@ -47,7 +47,7 @@ const links = [
 
   .navbar-menu-animating {
     @apply transition-[visibility, background-color];
-    @apply duration-[var(--main-animation-duration)] ease-in-out;
+    @apply duration-(--main-animation-duration) ease-in-out;
   }
 
   /* Curtain */
@@ -63,7 +63,7 @@ const links = [
 
   .navbar-menu-curtain-animating {
     @apply transition-[height];
-    @apply duration-[var(--main-animation-duration)] ease-in-out;
+    @apply duration-(--main-animation-duration) ease-in-out;
   }
 
   /* Contents */
@@ -87,7 +87,7 @@ const links = [
 
   .navbar-menu-close-button-animating {
     @apply transition-[opacity];
-    @apply duration-[var(--main-animation-duration)];
+    @apply duration-(--main-animation-duration);
   }
 
   /* List */
