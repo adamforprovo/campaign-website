@@ -3,9 +3,17 @@ const { title } = Astro.props;
 import ContentColumnContainer from "./ContentColumnContainer.astro";
 ---
 <ContentColumnContainer>
-  <header class="mt-8 mb-10">
-    <h1 class="text-4xl font-bold text-content-text">
-      {title}
-    </h1>
+  <header>
+    <h1>{title}</h1>
   </header>
 </ContentColumnContainer>
+
+<style>
+  @reference "../styles/global.css";
+
+  h1 {
+    @apply text-[2rem] md:text-[2.25rem];
+    @apply font-bold text-content-primary;
+    @apply my-[0.8em];
+  }
+</style>

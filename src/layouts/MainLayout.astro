@@ -32,8 +32,9 @@ const pageTitle = contentTitle ? `${contentTitle} - ${siteTitle}` : siteTitle;
   @reference "../styles/global.css";
 
   body {
-    @apply overflow-x-hidden flex flex-col min-h-screen;
+    @apply min-h-screen min-w-2xs;
     @apply bg-white;
+    @apply flex flex-col;
   }
   main {
     @apply flex-1;

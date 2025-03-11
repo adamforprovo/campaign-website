@@ -1,70 +1,15 @@
 @import "tailwindcss";
 
 /* Fonts */
+
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'InterVariable', sans-serif; }
 }
 
 /* Theme Variables */
+
 @theme {
   --breakpoint-xs: 30rem;
-  --color-content-text: var(--color-gray-700);
-}
-
-/* Content Text */
-@layer components {
-  .content-text {
-    @apply text-[1rem];
-    @apply leading-relaxed text-content-text;
-    @apply mb-[4em];
-  }
-
-  .content-text :is(h1, h2, h3, h4, h5, h6) {
-    @apply font-bold leading-snug;
-  }
-
-  .content-text :is(h1, h2, h3, h4, h5, h6):first-child {
-    @apply mt-0;
-  }
-
-  .content-text :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
-    @apply mt-0;
-  }
-
-  .content-text h1 {
-    @apply text-[2em] mt-[2em] mb-[0.75em];
-  }
-
-  .content-text h2 {
-    @apply text-[1.5em] mt-[2em] mb-[0.75em];
-  }
-
-  .content-text h3 {
-    @apply text-[1.25em] mt-[1.5em] mb-[0.75em];
-  }
-
-  .content-text p {
-    @apply my-[1em];
-  }
-
-  .content-text a {
-    @apply text-sky-500 hover:underline;
-  }
-
-  .content-text ul {
-    @apply list-disc ps-[1.5em] my-[1em];
-  }
-
-  .content-text ol {
-    @apply list-decimal ps-[1.5em] my-[1em];
-  }
-
-  .content-text li {
-    @apply my-[0.5em];
-  }
-
-  .content-text img {
-    @apply w-full object-cover my-[1.5em] aspect-[2/1];
-  }
+  --color-content-primary: var(--color-gray-700);
 }
