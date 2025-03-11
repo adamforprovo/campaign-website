@@ -1,0 +1,12 @@
+---
+import ContentColumnContainer from "./ContentColumnContainer.astro";
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-gray-200">
+  <ContentColumnContainer>
+    <p class="py-4 text-sm text-gray-500">
+      © {year} Adam Shin.
+    </p>
+  </ContentColumnContainer>
+</footer>
