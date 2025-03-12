@@ -1,8 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Fonts */
 
-:root { font-family: 'Inter', sans-serif; }
+:root { 
+  font-family: 'Inter', sans-serif; 
+  font-feature-settings: 'calt' 0;
+}
 @supports (font-variation-settings: normal) {
   :root { font-family: 'InterVariable', sans-serif; }
 }
