@@ -1,5 +1,6 @@
 ---
-import menuOpenIcon from '../../assets/nav-menu-open.svg';
+import { Image } from "astro:assets";
+import menuOpenIcon from '../../assets/ui/nav-menu-open.svg';
 import NavbarMenu from './NavbarMenu.astro';
 
 const links = [
@@ -22,7 +23,7 @@ const links = [
       </nav>
 
       <button id="navbar-menu-button" class="navbar-menu-button">
-        <img src={menuOpenIcon.src} class="navbar-button-img size-6" style="stroke: #ff00ff">
+        <Image src={menuOpenIcon} alt="" class="navbar-button-img size-6">
       </button>
     </div>
   </div>
@@ -37,12 +38,13 @@ const links = [
   }
 
   .navbar {
+    --max-width: 60rem;
     --link-padding: 1rem;
     @apply w-full h-14 navbar-break:h-16 bg-white shadow-lg;
   }
 
   .navbar-column-container {
-    @apply h-full mx-auto ps-4 navbar-break:px-8 max-w-(--breakpoint-md);
+    @apply h-full mx-auto ps-4 xs:ps-8 navbar-break:px-8 max-w-(--max-width);
   }
 
   .navbar-container {
@@ -50,7 +52,9 @@ const links = [
   }
 
   .navbar-logo {
-    @apply h-full flex items-center text-xl navbar-break:text-2xl font-bold text-content-primary whitespace-nowrap overflow-hidden;
+    @apply h-full flex items-center whitespace-nowrap overflow-hidden;
+    @apply font-bold text-content-primary;
+    @apply text-[1.25rem] navbar-break:text-[1.375rem];
     -webkit-user-select: none;
     user-select: none;
   }
@@ -66,9 +70,9 @@ const links = [
   }
 
   .navbar-menu-button {
-    @apply h-full w-14 opacity-75;
+    @apply h-full w-14;
     @apply flex items-center justify-center;
-    @apply cursor-pointer;
+    @apply cursor-pointer opacity-75;
     @apply navbar-break:hidden;
   }
 

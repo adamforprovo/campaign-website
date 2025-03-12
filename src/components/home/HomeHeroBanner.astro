@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import ContentColumnContainer from "../ContentColumnContainer.astro";
+import heroImage from '../../assets/photos/hero.webp';
+---
+
+<Image src={heroImage} alt="" class="heroImage" />
+
+<style>
+  @reference "../../styles/global.css";
+
+  .heroImage {
+    @apply w-screen min-h-80 max-h-150 md:aspect-[2/1];
+    @apply object-cover;
+    object-position: 30% 50%;
+  }
+</style>

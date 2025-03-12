@@ -1,5 +1,6 @@
 ---
-import menuCloseIcon from '../../assets/nav-menu-close.svg';
+import { Image } from "astro:assets";
+import menuCloseIcon from '../../assets/ui/nav-menu-close.svg';
 
 const links = [
   { href: "/", text: "Home" },
@@ -15,7 +16,7 @@ const links = [
 
   <div class="navbar-menu-contents">
     <button id="navbar-menu-close-button" class="navbar-menu-close-button">
-      <img src={menuCloseIcon.src} class="button-img size-6">
+      <Image src={menuCloseIcon} alt="" class="button-img size-6">
     </button>
 
     <nav class="navbar-menu-list" id="navbar-menu-list">
@@ -75,10 +76,9 @@ const links = [
   /* Close Button */
 
   .navbar-menu-close-button {
-    @apply absolute top-0 right-0 size-14 opacity-75;
+    @apply absolute top-0 right-0 size-14;
     @apply flex items-center justify-center;
-    @apply cursor-pointer;
-    @apply opacity-100;
+    @apply cursor-pointer opacity-75;
   }
 
   .navbar-menu-close-button-closed {
@@ -87,7 +87,7 @@ const links = [
 
   .navbar-menu-close-button-animating {
     @apply transition-[opacity];
-    @apply duration-(--main-animation-duration);
+    @apply duration-500 ease-linear;
   }
 
   /* List */
@@ -105,11 +105,13 @@ const links = [
   }
 
   .navbar-menu-list-animating-open {
-    @apply transition-[opacity, translate] duration-300 delay-200 ease-in-out;
+    @apply transition-[opacity, translate];
+    @apply duration-300 delay-200 ease-in-out;
   }
 
   .navbar-menu-list-animating-closed {
-    @apply transition-[opacity, translate] duration-300 ease-in-out;
+    @apply transition-[opacity, translate];
+    @apply duration-300 ease-in-out;
   }
 
 </style>

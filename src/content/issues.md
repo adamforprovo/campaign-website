@@ -4,7 +4,7 @@ Provo is a great place to live. As we grow, we face important decisions about ou
 
 **Provo residents deserve to clearly understand how their money is spent.**
 
-![image](../assets/mtn.jpg)
+![image](../assets/photos/mtn.jpg)
 
 Right now, Provo’s financial processes are difficult to understand. Citizens deserve straightforward answers. Transparency builds trust, ensures accountability, and helps us avoid unexpected financial crises.
 
@@ -17,8 +17,6 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 ## Housing
 
 **Provo should be a city where longtime residents, young families, and students can all find a place to call home.**
-
-![image](../assets/house.jpg)
 
 Our housing crisis is pushing people away. If we don’t thoughtfully plan for growth, we risk becoming a commuter city—bearing the costs of traffic and congestion without the benefits of a thriving local community. Responsible growth keeps neighborhoods strong and ensures a vibrant city.
 
