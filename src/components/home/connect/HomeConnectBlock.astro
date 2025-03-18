@@ -6,12 +6,12 @@ import SocialLinksBlock from "./HomeSocialLinksBlock.astro";
 
 <div class="block">
   <ContentColumnContainer>
-    <h1>Let's build the future of Provo together.</h1>
+    <h1>Stay connected to the campaign</h1>
 
     <h2>Sign up for email updates</h2>
     <MailingListSignupBlock />
 
-    <div class="h-8"/>
+    <div class="h-10"/>
 
     <h2>Connect on social media</h2>
     <SocialLinksBlock />
@@ -22,17 +22,18 @@ import SocialLinksBlock from "./HomeSocialLinksBlock.astro";
 <style>
   @reference "../../../styles/global.css";
 
+  .block {
+    @apply w-full pt-10 pb-14 bg-gray-200;
+    @apply text-content-base md:text-content-lg;
+  }
+
   h1 {
     @apply mb-8;
-    @apply text-[1.5rem] font-bold leading-snug  text-gray-700;
+    @apply text-[1.5em] font-bold leading-snug text-gray-700;
   }
 
   h2 {
     @apply mb-3;
-    @apply text-[1.25rem] font-semibold text-gray-600;
-  }
-
-  .block {
-    @apply w-full py-8 bg-gray-300;
+    @apply text-[1.125em] font-semibold text-gray-600;
   }
 </style>

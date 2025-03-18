@@ -1,10 +1,5 @@
 @import './global.css';
 
-@theme {
-  --text-content-base: 1rem;
-  --text-content-lg: 1.0625rem;
-}
-
 @layer components {
 
   .content-text {

@@ -1,10 +1,17 @@
-<div class="w-full flex flex-col sm:flex-row gap-2 sm:gap-4">
+---
+import { Image } from "astro:assets";
+import facebookLogo from '../../../assets/ui/facebook-logo-small.png';
+import instagramLogo from '../../../assets/ui/instagram-logo-small.png';
+---
+
+<div class="w-full flex flex-col sm:flex-row gap-3">
   <a 
     class="social-button" 
     target="_blank" 
     rel="noopener noreferrer" 
     href="https://www.facebook.com/"
   >
+    <Image src={facebookLogo} alt="Facebook" class="social-icon" />
     Follow on Facebook
   </a>
 
@@ -14,6 +21,7 @@
     rel="noopener noreferrer" 
     href="https://www.instagram.com/"
   >
+    <Image src={instagramLogo} alt="Instagram" class="social-icon" />
     Follow on Instagram
   </a>
 </div>
@@ -22,8 +30,12 @@
   @reference "../../../styles/global.css";
 
   .social-button {
-    @apply flex items-center justify-center h-12 w-full; 
+    @apply h-12 w-full flex items-center justify-center gap-3; 
     @apply rounded-lg text-gray-600 font-semibold;
-    @apply bg-gray-200 hover:bg-gray-100 transition;
+    @apply bg-white hover:bg-white/60 transition;
+  }
+
+  .social-icon {
+    @apply size-6;
   }
 </style>

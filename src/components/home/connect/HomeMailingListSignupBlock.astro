@@ -27,22 +27,20 @@
   @reference "../../../styles/global.css";
 
   .container-div {
-    @apply flex flex-col xs:flex-row gap-2;
+    @apply flex flex-col xs:flex-row gap-3;
   }
 
   .email-address-input {
-    @apply h-12 px-4 py-2;
-    @apply flex-auto;
-    @apply bg-white border-2 border-gray-400/60 rounded-md;
+    @apply h-12 px-4 flex-auto;
+    @apply bg-white border-1 border-gray-400/50 rounded-lg;
     @apply placeholder-gray-400;
-    @apply focus:outline-none focus:ring-2 focus:ring-blue-400;
-
+    @apply focus:outline-none focus:ring-3 focus:ring-blue-400 transition;
   }
 
   .submit-button {
-    @apply h-12 px-6 py-2;
-    @apply text-white font-semibold rounded-md;
-    @apply bg-blue-600 hover:bg-blue-500;
+    @apply h-12 px-6;
+    @apply rounded-lg text-white font-semibold;
+    @apply bg-blue-600 hover:bg-blue-500 transition;
     @apply cursor-pointer;
   }
 </style>

@@ -17,4 +17,7 @@
 
   --color-theme-primary: #992e40;
   --color-content-primary: var(--color-gray-700);
+
+  --text-content-base: 1rem;
+  --text-content-lg: 1.0625rem;
 }
