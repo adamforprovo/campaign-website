@@ -1,0 +1,38 @@
+---
+import ContentColumnContainer from "../../ContentColumnContainer.astro";
+import MailingListSignupBlock from "./HomeMailingListSignupBlock.astro";
+import SocialLinksBlock from "./HomeSocialLinksBlock.astro";
+---
+
+<div class="block">
+  <ContentColumnContainer>
+    <h1>Let's build the future of Provo together.</h1>
+
+    <h2>Sign up for email updates</h2>
+    <MailingListSignupBlock />
+
+    <div class="h-8"/>
+
+    <h2>Connect on social media</h2>
+    <SocialLinksBlock />
+
+  </ContentColumnContainer>
+</div>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  h1 {
+    @apply mb-8;
+    @apply text-[1.5rem] font-bold leading-snug  text-gray-700;
+  }
+
+  h2 {
+    @apply mb-3;
+    @apply text-[1.25rem] font-semibold text-gray-600;
+  }
+
+  .block {
+    @apply w-full py-8 bg-gray-300;
+  }
+</style>

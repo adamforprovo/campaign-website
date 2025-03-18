@@ -1,0 +1,29 @@
+<div class="w-full flex flex-col sm:flex-row gap-2 sm:gap-4">
+  <a 
+    class="social-button" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    href="https://www.facebook.com/"
+  >
+    Follow on Facebook
+  </a>
+
+  <a 
+    class="social-button" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    href="https://www.instagram.com/"
+  >
+    Follow on Instagram
+  </a>
+</div>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  .social-button {
+    @apply flex items-center justify-center h-12 w-full; 
+    @apply rounded-lg text-gray-600 font-semibold;
+    @apply bg-gray-200 hover:bg-gray-100 transition;
+  }
+</style>
