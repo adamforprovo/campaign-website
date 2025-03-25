@@ -1,17 +1,52 @@
 ---
 import { Image } from "astro:assets";
-import ContentColumnContainer from "../ContentColumnContainer.astro";
-import heroImage from '../../assets/photos/hero.webp';
+import heroImage from '../../assets/photos/hero2.webp';
 ---
 
-<Image src={heroImage} alt="" class="heroImage" />
+<div class="main-container">
+  <Image src={heroImage} alt="" class="hero-image" />
+
+  <div class="h-full mx-auto px-4 xs:px-8 max-w-(--breakpoint-md)">
+    <div class="relative w-full h-full">
+      <div class="blurb">
+        <h1>Strong Provo,<br>strong future.</h1>
+        <a 
+          class="action-button"
+          href="/issues"
+        >
+          Learn More&#x2000;→
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
   @reference "../../styles/global.css";
 
-  .heroImage {
-    @apply w-screen min-h-80 max-h-150 md:aspect-[2/1];
+  .main-container {
+    @apply relative;
+    @apply w-full min-h-80 max-h-180 aspect-[2/1];
+    @apply text-content-base md:text-content-lg;
+  }
+
+  .hero-image {
+    @apply absolute w-full h-full -z-10;
     @apply object-cover;
-    object-position: 30% 50%;
+  }
+
+  .blurb {
+    @apply absolute bottom-8 left-0;
+    @apply flex flex-col items-start gap-8;
+  }
+
+  .blurb h1 {
+    @apply text-[2.5em] leading-snug font-bold text-white;
+  }
+
+  .action-button {
+    @apply px-8 py-3 flex items-center justify-center; 
+    @apply rounded-lg text-[1.125em] font-semibold;
+    @apply bg-theme-primary text-white hover:text-white/60 transition;
   }
 </style>

@@ -8,6 +8,7 @@ const links = [
   { href: "/issues", text: "Issues" },
   { href: "/get-involved", text: "Get Involved" },
   { href: "/contact", text: "Contact" },
+  { href: "/donate", text: "Donate" },
 ];
 ---
 
@@ -41,11 +42,11 @@ const links = [
     --max-width: 60rem;
     --link-padding: 1rem;
     @apply w-full h-14 navbar-break:h-16;
-    @apply bg-theme-primary;
+    @apply bg-white shadow-lg z-100;
   }
 
   .navbar-column-container {
-    @apply h-full mx-auto ps-4 xs:ps-8 navbar-break:px-8 max-w-(--max-width);
+    @apply h-full mx-auto ps-4 navbar-break:px-8 max-w-(--max-width);
   }
 
   .navbar-container {
@@ -54,7 +55,7 @@ const links = [
 
   .navbar-logo {
     @apply h-full flex items-center whitespace-nowrap overflow-hidden;
-    @apply font-medium text-white;
+    @apply font-semibold text-content-primary;
     @apply text-[1.25rem] navbar-break:text-[1.375rem];
     -webkit-user-select: none;
     user-select: none;
@@ -67,12 +68,13 @@ const links = [
   .navbar-links-item {
     @apply h-full flex items-center px-(--link-padding);
     @apply text-[1.0625rem] font-medium;
-    @apply text-white hover:text-white/60;
+    @apply text-content-primary hover:text-content-primary/60;
   }
 
   .navbar-menu-button {
     @apply h-full w-14;
     @apply flex items-center justify-center;
+    @apply opacity-75;
     @apply cursor-pointer;
     @apply navbar-break:hidden;
   }
