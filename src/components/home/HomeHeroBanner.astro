@@ -25,8 +25,8 @@ import heroImage from '../../assets/photos/hero2.webp';
   @reference "../../styles/global.css";
 
   .main-container {
-    @apply relative;
-    @apply w-full min-h-80 max-h-180 aspect-[2/1];
+    height: clamp(20rem, 50vw, 45rem);
+    @apply relative w-full;
     @apply text-content-base md:text-content-lg;
   }
 
