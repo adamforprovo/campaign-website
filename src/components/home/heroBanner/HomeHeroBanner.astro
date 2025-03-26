@@ -1,10 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import heroImage from '../../assets/photos/hero2.webp';
+import heroImage from '../../../assets/photos/hero2.webp';
 ---
 
 <div class="main-container">
   <Image src={heroImage} alt="" class="hero-image" />
+
+  <div class="gradient" />
 
   <div class="h-full mx-auto px-4 xs:px-8 max-w-(--breakpoint-md)">
     <div class="relative w-full h-full">
@@ -14,7 +16,7 @@ import heroImage from '../../assets/photos/hero2.webp';
           class="action-button"
           href="/issues"
         >
-          Learn More&#x2000;→
+          Learn More&#x2000;&#x2192;
         </a>
       </div>
     </div>
@@ -22,12 +24,11 @@ import heroImage from '../../assets/photos/hero2.webp';
 </div>
 
 <style>
-  @reference "../../styles/global.css";
+  @reference "../../../styles/global.css";
 
   .main-container {
-    height: clamp(20rem, 50vw, 45rem);
+    height: clamp(30rem, 50vw, 45rem);
     @apply relative w-full;
-    @apply text-content-base md:text-content-lg;
   }
 
   .hero-image {
@@ -35,18 +36,24 @@ import heroImage from '../../assets/photos/hero2.webp';
     @apply object-cover;
   }
 
+  .gradient {
+    @apply absolute w-full h-full -z-9;
+    @apply bg-linear-to-b from-black/0 via-black/0 via-50% to-black/30;
+  }
+
   .blurb {
-    @apply absolute bottom-8 left-0;
-    @apply flex flex-col items-start gap-8;
+    @apply absolute bottom-8 w-full;
+    @apply flex flex-col items-start gap-7 xs:gap-8;
   }
 
   .blurb h1 {
-    @apply text-[2.25em] leading-snug font-bold text-white;
+    @apply text-[2.125em] xs:text-[2.25em] md:text-[2.4em];
+    @apply leading-snug font-bold text-white;
   }
 
   .action-button {
     @apply px-8 py-3 flex items-center justify-center; 
-    @apply rounded-lg text-[1em] font-semibold;
+    @apply rounded-xl text-[1.125rem] font-semibold;
     @apply bg-theme-primary text-white hover:text-white/60 transition;
   }
 </style>

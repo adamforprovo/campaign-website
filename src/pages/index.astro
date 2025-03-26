@@ -1,8 +1,10 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import HeroBanner from "../components/home/HomeHeroBanner.astro";
+import HeroBanner from "../components/home/heroBanner/HomeHeroBanner.astro";
 import ConnectBlock from "../components/home/connect/HomeConnectBlock.astro";
 import ContentText from "../components/ContentText.astro";
+
+import { Content as IntroContent } from "../content/homeintro.md";
 ---
 <MainLayout title="">
 
@@ -11,8 +13,7 @@ import ContentText from "../components/ContentText.astro";
   <ConnectBlock />
 
   <ContentText>
-    <h2>Header</h2>
-    <p>Coming soon</p>
+    <IntroContent />
   </ContentText>
 
 </MainLayout>
