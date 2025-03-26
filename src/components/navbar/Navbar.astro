@@ -1,7 +1,10 @@
 ---
 import { Image } from "astro:assets";
 import menuOpenIcon from '../../assets/ui/nav-menu-open.svg';
+import menuOpenIconWhite from '../../assets/ui/nav-menu-open-white.svg';
 import NavbarMenu from './NavbarMenu.astro';
+
+const { transparent = false } = Astro.props;
 
 const links = [
   { href: "/about", text: "About" },
@@ -12,7 +15,7 @@ const links = [
 ];
 ---
 
-<header class="navbar">
+<header class={`navbar ${transparent ? "navbar-transparent" : ""}`}>
   <div class="navbar-column-container">
     <div class="navbar-container">
       <a href="/" class="navbar-logo">Adam Shin for Provo</a>
@@ -24,7 +27,11 @@ const links = [
       </nav>
 
       <button id="navbar-menu-button" class="navbar-menu-button">
-        <Image src={menuOpenIcon} alt="" class="navbar-button-img size-6">
+        <Image 
+          src={transparent ? menuOpenIconWhite : menuOpenIcon}
+          alt="" 
+          class="navbar-button-img size-6"
+        >
       </button>
     </div>
   </div>
@@ -45,6 +52,11 @@ const links = [
     @apply bg-white shadow-lg z-100;
   }
 
+  .navbar-transparent {
+    @apply absolute top-0 left-0 right-0;
+    @apply bg-transparent shadow-none;
+  }
+
   .navbar-column-container {
     @apply h-full mx-auto ps-4 navbar-break:px-8 max-w-(--max-width);
   }
@@ -61,6 +73,10 @@ const links = [
     user-select: none;
   }
 
+  .navbar-transparent .navbar-logo {
+    @apply text-white;
+  }
+
   .navbar-links {
     @apply h-full hidden navbar-break:flex -me-(--link-padding);
   }
@@ -69,6 +85,10 @@ const links = [
     @apply h-full flex items-center px-(--link-padding);
     @apply text-[1.0625rem] font-medium;
     @apply text-content-primary hover:text-content-primary/60;
+  }
+
+  .navbar-transparent .navbar-links-item {
+    @apply text-white hover:text-white/80;
   }
 
   .navbar-menu-button {
