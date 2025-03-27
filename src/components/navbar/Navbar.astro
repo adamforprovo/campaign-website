@@ -49,12 +49,14 @@ const links = [
     --max-width: 60rem;
     --link-padding: 1rem;
     @apply w-full h-14 navbar-break:h-16;
-    @apply bg-white shadow-lg z-100;
+    @apply bg-white z-100;
+    box-shadow: 0 -13px 15px 20px rgb(0 0 0 / 0.1), 0 -20px 6px 20px rgb(0 0 0 / 0.1);
   }
 
   .navbar-transparent {
     @apply absolute top-0 left-0 right-0;
-    @apply bg-transparent shadow-none;
+    @apply bg-transparent;
+    box-shadow: 0 0 #0000;
   }
 
   .navbar-column-container {
