@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import mainLogo from '../../assets/ui/logo-web.svg';
 import menuOpenIcon from '../../assets/ui/nav-menu-open.svg';
 import menuOpenIconWhite from '../../assets/ui/nav-menu-open-white.svg';
 import NavbarMenu from './NavbarMenu.astro';
@@ -18,7 +19,13 @@ const links = [
 <header class={`navbar ${transparent ? "navbar-transparent" : ""}`}>
   <div class="navbar-column-container">
     <div class="navbar-container">
-      <a href="/" class="navbar-logo">Adam Shin for Provo</a>
+      <a href="/" class="h-full flex items-center">
+        <Image
+          src={mainLogo}
+          alt="Adam Shin for Provo"
+          class="main-logo"
+        >
+      </a>
 
       <nav class="navbar-links">
         {links.map(link => (
@@ -30,7 +37,7 @@ const links = [
         <Image 
           src={transparent ? menuOpenIconWhite : menuOpenIcon}
           alt="" 
-          class="navbar-button-img size-6"
+          class="navbar-button-img"
         >
       </button>
     </div>
@@ -48,8 +55,10 @@ const links = [
   .navbar {
     --max-width: 60rem;
     --link-padding: 1rem;
-    @apply w-full h-14 navbar-break:h-16;
+
+    @apply w-full h-16 navbar-break:h-20;
     @apply bg-white z-100;
+
     box-shadow: 0 -13px 15px 20px rgb(0 0 0 / 0.1), 0 -20px 6px 20px rgb(0 0 0 / 0.1);
   }
 
@@ -67,16 +76,9 @@ const links = [
     @apply h-full flex items-center justify-between overflow-hidden;
   }
 
-  .navbar-logo {
-    @apply h-full flex items-center whitespace-nowrap overflow-hidden;
-    @apply font-semibold text-content-primary;
-    @apply text-[1.25rem] navbar-break:text-[1.375rem];
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  .navbar-transparent .navbar-logo {
-    @apply text-white;
+  .main-logo {
+    @apply h-10 navbar-break:h-12;
+    @apply w-auto;
   }
 
   .navbar-links {
@@ -86,7 +88,7 @@ const links = [
   .navbar-links-item {
     @apply h-full flex items-center px-(--link-padding);
     @apply text-[1.0625rem] font-medium;
-    @apply text-content-primary hover:text-content-primary/60;
+    @apply text-content-primary hover:opacity-60;
   }
 
   .navbar-transparent .navbar-links-item {
@@ -94,14 +96,14 @@ const links = [
   }
 
   .navbar-menu-button {
-    @apply h-full w-14;
+    @apply h-full w-16;
     @apply flex items-center justify-center;
-    @apply opacity-75;
     @apply cursor-pointer;
     @apply navbar-break:hidden;
   }
 
   .navbar-button-img {
+    @apply size-7 opacity-60;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;

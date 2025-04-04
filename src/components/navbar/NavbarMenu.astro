@@ -17,7 +17,7 @@ const links = [
 
   <div class="navbar-menu-contents">
     <button id="navbar-menu-close-button" class="navbar-menu-close-button">
-      <Image src={menuCloseIcon} alt="" class="button-img size-6">
+      <Image src={menuCloseIcon} alt="" class="navbar-menu-button-img">
     </button>
 
     <nav class="navbar-menu-list" id="navbar-menu-list">
@@ -77,10 +77,17 @@ const links = [
   /* Close Button */
 
   .navbar-menu-close-button {
-    @apply absolute top-0 right-0 size-14;
+    @apply absolute top-0 right-0 size-16;
     @apply flex items-center justify-center;
-    @apply opacity-75;
     @apply cursor-pointer;
+  }
+
+  .navbar-menu-button-img {
+    @apply size-7 opacity-60;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
   }
 
   .navbar-menu-close-button-closed {
@@ -99,7 +106,7 @@ const links = [
   }
 
   .navbar-menu-list-item {
-    @apply text-[1.75rem] font-semibold text-content-primary w-full px-12 py-2;
+    @apply text-[1.8rem] font-bold text-content-primary w-full px-12 py-2;
   }
 
   .navbar-menu-list-closed { 

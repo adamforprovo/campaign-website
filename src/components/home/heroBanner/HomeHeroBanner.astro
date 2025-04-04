@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import heroImage from '../../../assets/photos/hero2.webp';
+import heroImage from '../../../assets/photos/hero.webp';
 ---
 
 <div class="main-container">
@@ -8,10 +8,10 @@ import heroImage from '../../../assets/photos/hero2.webp';
 
   <div class="gradient" />
 
-  <div class="h-full mx-auto px-4 xs:px-8 max-w-(--breakpoint-md)">
+  <div class="h-full mx-auto px-4 xs:px-8 max-w-[60rem]">
     <div class="relative w-full h-full">
       <div class="blurb">
-        <h1>Strong Provo,<br>strong future.</h1>
+        <h1>Strong Provo.<br>Strong future.</h1>
         <a 
           class="action-button"
           href="/issues"
@@ -42,19 +42,20 @@ import heroImage from '../../../assets/photos/hero2.webp';
   }
 
   .blurb {
-    @apply absolute bottom-8 w-full;
+    @apply text-content-base md:text-content-lg;
+    @apply absolute bottom-6 w-full;
     @apply flex flex-col items-start gap-7 xs:gap-8;
     filter: drop-shadow(0 0.2rem 0.3rem rgb(0 0 0 / 0.3));
   }
 
   .blurb h1 {
-    @apply text-[2.125em] xs:text-[2.25em] md:text-[2.4em];
+    @apply text-[2.125em] xs:text-[2.25em] md:text-[2.3em];
     @apply leading-snug font-bold text-white;
   }
 
   .action-button {
-    @apply px-8 py-3 flex items-center justify-center; 
-    @apply rounded-xl text-[1.125rem] font-semibold;
+    @apply h-12 px-8 flex items-center justify-center; 
+    @apply rounded-xl text-[1em] font-semibold;
     @apply bg-theme-primary text-white hover:text-white/60 transition;
   }
 </style>
