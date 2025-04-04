@@ -1,10 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import heroImage from '../../../assets/photos/hero.webp';
+import bgImage from '../../../assets/photos/hero-banner-bg.webp';
+import portraitImage from '../../../assets/photos/hero-banner-portrait.webp';
 ---
 
 <div class="main-container">
-  <Image src={heroImage} alt="" class="hero-image" />
+  <Image src={bgImage} alt="" class="bg-image" />
+  <Image src={portraitImage} alt="" class="portrait-image-full" />
 
   <div class="gradient" />
 
@@ -27,25 +29,32 @@ import heroImage from '../../../assets/photos/hero.webp';
   @reference "../../../styles/global.css";
 
   .main-container {
-    height: clamp(30rem, 50vw, 45rem);
+    height: clamp(30rem, calc(19rem + 50vw), 40rem);
     @apply relative w-full;
   }
 
-  .hero-image {
+  .bg-image {
     @apply absolute w-full h-full -z-10;
     @apply object-cover;
   }
 
+  .portrait-image-full {
+    @apply absolute -z-9;
+    @apply w-full h-full;
+    @apply object-cover;
+    object-position: 50% 25%;
+  }
+
   .gradient {
     @apply absolute w-full h-full -z-9;
-    @apply bg-linear-to-b from-black/0 via-black/0 via-50% to-black/30;
+    @apply bg-linear-to-b from-black/0 via-black/0 via-50% to-black/50;
   }
 
   .blurb {
     @apply text-content-base md:text-content-lg;
     @apply absolute bottom-6 w-full;
     @apply flex flex-col items-start gap-7 xs:gap-8;
-    filter: drop-shadow(0 0.2rem 0.3rem rgb(0 0 0 / 0.3));
+    filter: drop-shadow(0 0.2rem 0.3rem rgb(0 0 0 / 0.4));
   }
 
   .blurb h1 {
