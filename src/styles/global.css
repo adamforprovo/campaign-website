@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+/* General */
+::selection {
+  display: inline;
+}
+
 /* Fonts */
 
 :root { 
