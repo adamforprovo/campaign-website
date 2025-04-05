@@ -13,7 +13,7 @@
   }
 
   .content-text :is(h1, h2, h3, h4, h5, h6):first-child {
-    @apply mt-[1.5em];
+    @apply mt-[1.25em];
   }
 
   .content-text :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
@@ -21,7 +21,7 @@
   }
 
   .content-text h1 {
-    @apply text-[2em] mt-[2em] mb-[0.75em];
+    @apply text-[2.2em] mt-[2em] mb-[1em];
   }
 
   .content-text h2 {

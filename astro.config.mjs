@@ -1,6 +1,7 @@
-
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
+
+import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   vite: {
@@ -8,8 +9,9 @@ export default defineConfig({
       tailwindcss()
     ],
   },
-  devToolbar: { 
-    enabled: false 
-  },
+  integrations: [mdx()],
+  markdown: { gfm: false, },
+  devToolbar: { enabled: false },
+
   site: 'https://adamforprovo.com',
 });

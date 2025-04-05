@@ -1,17 +1,14 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import ContentHeader from "../components/ContentHeader.astro"
 import ContentText from "../components/ContentText.astro";
 
-import { Content as IssuesContent } from "../content/issues.md";
+import { Content } from "../content/issues.md";
 ---
 
 <MainLayout title="Issues">
-  
-  <ContentHeader title="Issues" />
 
   <ContentText>
-    <IssuesContent />
+    <Content />
   </ContentText>
 
 </MainLayout>
