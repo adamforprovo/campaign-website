@@ -8,7 +8,7 @@ import NavbarMenu from './NavbarMenu.astro';
 const { transparent = false } = Astro.props;
 
 const links = [
-  { href: "/about", text: "About" },
+  { href: "/about", text: "About Adam" },
   { href: "/issues", text: "Issues" },
   { href: "/get-involved", text: "Get Involved" },
   { href: "/contact", text: "Contact" },
@@ -48,7 +48,7 @@ const links = [
   @reference "../../styles/global.css";
 
   @theme {
-    --breakpoint-navbar-break: 48rem;
+    --breakpoint-navbar-break: 52rem;
   }
 
   .navbar {
@@ -87,7 +87,7 @@ const links = [
   .navbar-links-item {
     @apply h-full flex items-center px-(--link-padding);
     @apply text-[1.0625rem] font-medium;
-    @apply text-content-primary hover:opacity-60;
+    @apply text-content-primary hover:text-theme-primary;
   }
 
   .navbar-transparent .navbar-links-item {
