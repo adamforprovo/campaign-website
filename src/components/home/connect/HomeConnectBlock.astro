@@ -1,7 +1,6 @@
 ---
 import ContentColumnContainer from "../../ContentColumnContainer.astro";
 import MailingListSignupBlock from "./HomeMailingListSignupBlock.astro";
-import SocialLinksBlock from "./HomeSocialLinksBlock.astro";
 ---
 
 <div class="block">
@@ -17,17 +16,17 @@ import SocialLinksBlock from "./HomeSocialLinksBlock.astro";
   @reference "../../../styles/global.css";
 
   .block {
-    @apply w-full pt-10 pb-14 bg-gray-200;
+    @apply w-full pt-10 pb-14 bg-zinc-200;
     @apply text-content-base md:text-content-lg;
   }
 
   h1 {
     @apply mb-2.5;
-    @apply text-[1.5em] font-bold leading-snug text-gray-700;
+    @apply text-[1.5em] font-bold leading-snug text-zinc-700;
   }
 
   h2 {
     @apply mb-6;
-    @apply text-gray-500;
+    @apply text-zinc-500;
   }
 </style>

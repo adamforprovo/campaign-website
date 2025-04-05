@@ -6,8 +6,6 @@ Provo is a great place to live. As we grow, we face important decisions about ou
 
 **Provo residents deserve to clearly understand how their money is spent.**
 
-<!-- ![image](../assets/photos/mtn.jpg) -->
-
 Right now, Provo’s financial processes are difficult to understand. Citizens deserve straightforward answers. Transparency builds trust, ensures accountability, and helps us avoid unexpected financial crises.
 
 **Solutions:**

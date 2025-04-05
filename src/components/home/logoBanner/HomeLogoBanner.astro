@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import logoImage from "../../../assets/logo/logo-wide.svg";
+---
+
+<div class="main-container">
+  <Image src={logoImage} alt="" class="logo" />
+</div>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  .main-container {
+    @apply w-full h-40 px-8;
+    @apply flex items-center justify-center;
+    @apply bg-theme-primary;
+  }
+
+  .logo {
+    @apply w-70 md:w-80 h-auto;
+  }
+</style>

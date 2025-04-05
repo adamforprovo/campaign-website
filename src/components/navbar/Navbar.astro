@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import mainLogo from '../../assets/ui/logo-web.svg';
+import navLogo from '../../assets/ui/nav-logo.svg';
 import menuOpenIcon from '../../assets/ui/nav-menu-open.svg';
 import menuOpenIconWhite from '../../assets/ui/nav-menu-open-white.svg';
 import NavbarMenu from './NavbarMenu.astro';
@@ -20,9 +20,9 @@ const links = [
     <div class="navbar-container">
       <a href="/" class="h-full flex items-center">
         <Image
-          src={mainLogo}
+          src={navLogo}
           alt="Adam Shin for Provo"
-          class="main-logo"
+          class="navbar-logo"
         >
       </a>
 
@@ -75,8 +75,8 @@ const links = [
     @apply h-full flex items-center justify-between overflow-hidden;
   }
 
-  .main-logo {
-    @apply h-10 navbar-break:h-12;
+  .navbar-logo {
+    @apply h-12 navbar-break:h-15;
     @apply w-auto;
   }
 
