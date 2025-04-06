@@ -1,15 +1,62 @@
 ---
 import { Image } from "astro:assets";
 import FixedImageBackgroundSection from "../../FixedImageBackgroundSection.astro";
-import bgImage from "../../../assets/photos/home-mtn.webp"
+import ContentColumnContainer from "../../ContentColumnContainer.astro";
+import ContentText from "../../../components/ContentText.astro";
+
 import logoImage from "../../../assets/logo/logo-wide-white.svg";
+import bgImage1 from "../../../assets/photos/mountain.webp";
+import bgImage2 from "../../../assets/photos/downtown.jpg";
+import bgImage3 from "../../../assets/photos/house.webp";
 ---
 
-<FixedImageBackgroundSection backgroundImage={bgImage.src}>
-  <h1 class="text-white text-4xl md:text-6xl font-bold drop-shadow-lg mb-4">
-    Welcome to Provo
-  </h1>
-  <p class="text-white text-lg md:text-2xl drop-shadow-md max-w-2xl">
-    Building a stronger, more transparent city—together.
-  </p>
+<FixedImageBackgroundSection backgroundImage={bgImage1}>
+  <div class="section-content">
+    <div class="logo-container">
+      <Image src={logoImage} alt="Adam Shin for Provo City Council - Citywide" class="logo" />
+    </div>
+
+    <ContentText>
+      <p class="text">
+        Hello world!
+      </p>
+    </ContentText>
+  </div>
 </BackgroundSection>
+
+<FixedImageBackgroundSection backgroundImage={bgImage2}>
+  <ContentText>
+    <p class="text">
+      Hello world! Section 2
+    </p>
+  </ContentText>
+</BackgroundSection>
+
+<FixedImageBackgroundSection backgroundImage={bgImage3}>
+  <ContentText>
+    <p class="text">
+      Hello world! Section 3
+    </p>
+  </ContentText>
+</BackgroundSection>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  .section-content {
+    filter: drop-shadow(0 0.2rem 0.4rem rgb(0 0 0 / 0.7));
+  }
+
+  .logo-container {
+    @apply w-full px-8 py-16;
+    @apply flex items-center justify-center;
+  }
+
+  .logo {
+    @apply w-70 md:w-80 h-auto;
+  }
+
+  .text {
+    @apply text-white pt-50 pb-100;
+  }
+</style>

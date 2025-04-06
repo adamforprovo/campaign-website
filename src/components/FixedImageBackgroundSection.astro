@@ -4,16 +4,12 @@ const { backgroundImage } = Astro.props;
 ---
 
 <div class="relative overflow-hidden">
-  <!-- Background Image -->
   <div
-    class="absolute inset-0 bg-fixed bg-center bg-cover"
-    style={`background-image: url('${backgroundImage}')`}
-    aria-hidden="true"
-  >
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/60" />
-  </div>
+    class="absolute inset-0 -z-2 bg-fixed bg-cover bg-center"
+    style={`background-image: url('${backgroundImage.src}');`}
+  ></div>
 
-  <!-- Slotted Content -->
+  <div class="absolute inset-0 -z-1 bg-zinc-900 opacity-85"></div>
+
   <slot />
 </div>
