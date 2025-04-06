@@ -1,5 +1,5 @@
 
-## I'm Adam Shin.
+## Hi — I'm Adam.
 
 I'm running for the Provo City Council Citywide 1 seat.
 
