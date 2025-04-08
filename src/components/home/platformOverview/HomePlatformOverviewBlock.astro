@@ -1,13 +1,17 @@
 ---
 import { Image } from "astro:assets";
-import LogoBanner from "../logoBanner/HomeLogoBanner.astro";
+import LogoBanner from "./HomeLogoBanner.astro";
 import ContentText from "../../../components/ContentText.astro";
 
 import { Content } from "../../../content/home-platform-overview.md";
 ---
 
-<LogoBanner />
+<section id="platform-overview">
+  <LogoBanner />
 
-<ContentText>
-  <Content />
-</ContentText>
+  <div class="h-8" />
+
+  <ContentText>
+    <Content />
+  </ContentText>
+</section>

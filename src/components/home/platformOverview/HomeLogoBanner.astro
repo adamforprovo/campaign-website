@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import logoImage from "../../../assets/logo/logo-wide.svg";
+---
+
+<div class="main-container">
+  <div class="banner-bg">
+    <Image 
+      src={logoImage}
+      alt="Adam Shin - Provo City Council - Citywide" 
+      class="logo" 
+    />
+  </div>
+</div>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  .main-container {
+    @apply w-full;
+  }
+
+  .banner-bg {
+    @apply w-full h-60;
+    @apply flex items-center justify-center;
+    background-color: #b11e42;
+    opacity: 90%;
+  }
+
+  .logo {
+    @apply h-full w-auto;
+  }
+</style>
