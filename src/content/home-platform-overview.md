@@ -5,25 +5,25 @@ I love our city and I'm proud to call it home.
 
 Provo has shaped my life. I've lived here as a student, a working professional, and now as a husband and father.
 
-Recently, I’ve served on Provo’s Planning Commission, helping guide development across the city.
+Serving on Provo’s Planning Commission, I’ve worked to improve our neighborhoods — from housing affordability to safer streets and sidewalks.
 
 I'm excited to bring this experience to the City Council Citywide 1 seat.
 
 ## Forward-thinking leadership.
 
-Provo faces both opportunities and challenges. It's time to make thoughtful choices about where we're headed — and what kind of city we want to become.
+Provo faces both opportunities and challenges. It's time to make thoughtful choices about where we're headed.
 
-I believe in our city's future. We can keep Provo welcoming to families, build a strong local economy, and embrace growth while protecting our city's character and quality of life.
+I believe in Provo's future. We can find ways to welcome families, strengthen our economy, and embrace growth while preserving our quality of life.
 
 Provo needs vision and direction. I'm committed to getting us there.
 
 ## Practical problem solving.
 
-Provo residents deserve real solutions to their everyday struggles. 
+Provo families deserve real solutions to their everyday struggles. 
 
-Solving problems means diving into the issues. It means staying informed, thinking creatively, and putting in the work.
+Solving problems means diving into the issues. It means real effort, research, and creative thinking.
 
-On the Planning Commission, I've tackled tough issues firsthand. As your City Council representative, I'll fight for housing affordability, safe streets, small business, and more.
+As your City Council representative, I’ll work to support local businesses, protect our outdoor spaces, improve active transportation and connectivity, and tackle the everyday issues that matter most to you.
 
 ## Transparency and communication.
 
@@ -35,6 +35,8 @@ Better transparency makes for a stronger city. I promise to listen, keep you inf
 
 ## A city that works for everyone.
 
-Provo has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a stronger future together.
+Provo has a place for all of us: longtime residents, young families, students, and everyone in between.
+
+Our city is strongest when we work together. Let’s build a better future for Provo.
 
 I’d be honored to earn your vote this November!

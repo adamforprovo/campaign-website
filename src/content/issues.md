@@ -2,7 +2,7 @@
 
 Provo is a great place to live. As we grow, we face important decisions about our future. Let's build a city that works for everyone who lives here.
 
-## Economy and Finance
+## Economy and finance
 
 **Provo residents deserve to clearly understand how their money is spent.**
 
@@ -26,7 +26,7 @@ Our housing crisis is pushing people away. If we don’t thoughtfully plan for g
 * Streamline the permitting process for neighborhood-scale housing projects.
 * Focus higher-density developments near transit hubs to minimize the impact of traffic.
 
-## Street Safety
+## Street safety
 
 **Provo’s streets should be safe for everyone, especially children.**
 
@@ -38,9 +38,9 @@ Too many of our streets prioritize speed over safety, creating dangerous conditi
 * Invest in affordable traffic-calming measures like painted crosswalks, curb extensions, and bollards.
 * Draw on successful, proven street safety improvements from other cities.
 
-## Parks and Outdoor Spaces
+## Parks, trails, and outdoor spaces
 
-**Parks, trails, and outdoor spaces are essential to Provo’s quality of life.**
+**Access to the outdoors is essential to Provo’s quality of life.**
 
 As Provo grows, we must maintain and improve access to our parks, trails, and outdoor amenities. These spaces promote health, encourage family activities, and protect our unique environment. They are a vital investment in our community’s long-term future.
 
