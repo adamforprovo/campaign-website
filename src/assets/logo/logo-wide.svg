@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="c" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1800 1000">
   <defs>
-    <symbol id="a" data-name="Star" viewBox="0 0 75.883 72.562">
-      <path d="M41.554,2.283l9.319,19.602,21.523,2.805c3.342.436,4.68,4.555,2.233,6.872l-15.763,14.92,3.983,21.336c.618,3.313-2.886,5.859-5.845,4.247l-19.061-10.381-19.061,10.381c-2.959,1.612-6.464-.934-5.845-4.247l3.983-21.336L1.255,31.562c-2.447-2.317-1.109-6.436,2.233-6.872l21.523-2.805L34.329,2.283c1.447-3.044,5.778-3.044,7.225,0Z" fill="#730f32"/>
+    <symbol id="a" data-name="Star" viewBox="0 0 78.311 74.773">
+      <path d="M41.865,1.712l10.222,21.502,23.609,3.077c2.506.327,3.51,3.416,1.675,5.154l-17.291,16.366,4.369,23.404c.464,2.485-2.164,4.394-4.384,3.185l-20.908-11.387-20.908,11.387c-2.22,1.209-4.848-.701-4.384-3.185l4.369-23.404L.941,31.445c-1.836-1.737-.832-4.827,1.675-5.154l23.609-3.077L36.446,1.712c1.085-2.283,4.334-2.283,5.419,0Z" fill="#730f32"/>
     </symbol>
-    <symbol id="b" data-name="Star Row" viewBox="0 0 575.883 72.562">
+    <symbol id="b" data-name="Star Row" viewBox="0 0 578.311 74.773">
       <g>
-        <use width="75.883" height="72.562" transform="translate(500)" xlink:href="#a"/>
-        <use width="75.883" height="72.562" transform="translate(333.33)" xlink:href="#a"/>
-        <use width="75.883" height="72.562" transform="translate(166.67)" xlink:href="#a"/>
-        <use width="75.883" height="72.562" xlink:href="#a"/>
+        <use width="78.311" height="74.773" transform="translate(500)" xlink:href="#a"/>
+        <use width="78.311" height="74.773" transform="translate(333.33)" xlink:href="#a"/>
+        <use width="78.311" height="74.773" transform="translate(166.67)" xlink:href="#a"/>
+        <use width="78.311" height="74.773" xlink:href="#a"/>
       </g>
     </symbol>
   </defs>
   <rect id="d" data-name="Background" width="1800" height="1000" fill="#b11e42"/>
   <g id="e" data-name="Stars">
-    <use id="f" data-name="Stars" width="575.883" height="72.562" transform="translate(502.514 150.133) scale(1.38)" xlink:href="#b"/>
-    <use id="g" data-name="Stars" width="575.883" height="72.562" transform="translate(502.514 750.133) scale(1.38)" xlink:href="#b"/>
+    <use id="f" data-name="Stars" width="578.311" height="74.773" transform="translate(500.838 148.298) scale(1.38)" xlink:href="#b"/>
+    <use id="g" data-name="Stars" width="578.311" height="74.773" transform="translate(500.838 748.298) scale(1.38)" xlink:href="#b"/>
   </g>
   <g id="h" data-name="Text Paths Expanded">
     <g id="i" data-name="Path">

@@ -1,42 +1,40 @@
 
 ## Hi — I'm Adam.
 
-I’m running for Provo City Council, and I’d love to earn your vote.
+I love our city and I'm proud to call it home.
 
-Provo has shaped many chapters of my life. I've lived here as a student, a working professional, and now as a husband and father.
+Provo has shaped my life. I've lived here as a student, a working professional, and now as a husband and father.
 
-Over the past year, I’ve served on Provo’s Planning Commission, helping guide the growth and development of our community.
+Recently, I’ve served on Provo’s Planning Commission, helping guide development across the city.
 
-I’m excited to bring this experience to the Citywide 1 seat on the Provo City Council.
+I'm excited to bring this experience to the City Council Citywide 1 seat.
 
-## Provo needs leaders who look forward.
+## Forward-thinking leadership.
 
-As we navigate the future, we face key decisions about finance, growth, housing, and our quality of life.
+Provo faces both opportunities and challenges. It's time to make thoughtful choices about where we're headed — and what kind of city we want to become.
 
-Where is Provo headed? How do we keep our budget balanced as costs rise? Can we remain a welcoming and affordable place for families to put down roots?
+I believe in our city's future. We can keep Provo welcoming to families, build a strong local economy, and embrace growth while protecting our city's character and quality of life.
 
-I believe we can find answers to these questions. I'm eager to share more of my vision with you.
+Provo needs vision and direction. I'm committed to getting us there.
 
-## Provo needs problem-solvers.
+## Practical problem solving.
 
-Provo residents face real everyday challenges. They deserve leaders willing to take action and solve problems.
+Provo residents deserve real solutions to their everyday struggles. 
 
-This means diving deep, putting in the work, and delivering practical solutions. 
+Solving problems means diving into the issues. It means staying informed, thinking creatively, and putting in the work.
 
-On the Planning Commission, I've tackled tough issues firsthand. As your representative on the City Council, I'll continue going to bat for you on the issues that matter most.
+On the Planning Commission, I've tackled tough issues firsthand. As your City Council representative, I'll fight for housing affordability, safe streets, small business, and more.
 
-## Provo needs transparency and communication.
+## Transparency and communication.
 
-Clear communication builds trust. You should know what's happening in your city, how decisions are made, and where your money is spent.
+Clear communication helps us address problems early. It means fewer surprises down the road.
 
-When problems arise, we should address them early and openly. Transparency today means fewer surprises tomorrow.
+Residents of Provo should know exactly how decisions are made and where their money is spent — especially around essential services and infrastructure.
 
-I'm committed to listening, communicating honestly, and making sure everyone's voice is heard.
+Better transparency makes for a stronger city. I promise to listen, keep you informed, and make sure your voice is heard.
 
-## Provo is for everyone.
+## A city that works for everyone.
 
-I love Provo’s ability to bring people together across generations.
-
-Let's build a city that works for all of us — longtime residents, young families, and generations to come.
+Provo has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a stronger future together.
 
 I’d be honored to earn your vote this November!
