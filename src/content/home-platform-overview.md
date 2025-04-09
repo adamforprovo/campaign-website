@@ -1,29 +1,29 @@
 
 ## Hi — I'm Adam.
 
-I love our city and I'm proud to call it home.
+Provo has shaped my life.
 
-Provo has shaped my life. I've lived here as a student, a working professional, and now as a husband and father.
+I've lived here as a student, a working professional, and now as a husband and father. I love our city and I'm proud to call it home.
 
-Serving on Provo’s Planning Commission, I’ve worked to improve our neighborhoods — from housing affordability to safer streets and sidewalks.
+Serving on Provo’s Planning Commission, I’ve been an advocate for housing affordability, safe streets, and smart economic policy.
 
 I'm excited to bring this experience to the City Council Citywide 1 seat.
 
 ## Forward-thinking leadership.
 
-Provo faces both opportunities and challenges. It's time to make thoughtful choices about where we're headed.
+Provo faces both opportunities and challenges. It's time to make choices about where we're headed — and what kind of city we want to become.
 
-I believe in Provo's future. We can find ways to welcome families, strengthen our economy, and embrace growth while preserving our quality of life.
+I believe in Provo's future. We can help families put down roots, strengthen our economy, and embrace thoughtful growth while preserving our quality of life.
 
 Provo needs vision and direction. I'm committed to getting us there.
 
 ## Practical problem solving.
 
-Provo families deserve real solutions to their everyday struggles. 
+Provo residents deserve real solutions to their everyday struggles. 
 
 Solving problems means diving into the issues. It means real effort, research, and creative thinking.
 
-As your City Council representative, I’ll work to support local businesses, protect our outdoor spaces, improve active transportation and connectivity, and tackle the everyday issues that matter most to you.
+I’ll work to support local businesses, protect our outdoor spaces, improve active transportation and connectivity, and tackle the daily issues that matter most to you.
 
 ## Transparency and communication.
 
