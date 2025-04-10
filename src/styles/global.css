@@ -14,6 +14,7 @@
 
 @theme {
   --breakpoint-xs: 30rem;
+  --breakpoint-mdl: 60rem;
 
   --color-theme-primary: #b43750;
   --color-content-primary: var(--color-gray-700);
