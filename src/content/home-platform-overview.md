@@ -9,6 +9,8 @@ Serving on Provo’s Planning Commission, I’ve been an advocate for housing af
 
 I'm excited to bring this experience to the City Council Citywide 1 seat.
 
+![](../assets/photos/mountain.webp)
+
 ## Forward-thinking leadership.
 
 Provo faces both opportunities and challenges. It's time to make choices about where we’re headed — and what kind of city we want to become.
@@ -21,7 +23,7 @@ Provo needs clear vision and direction. I believe in our city’s future, and I�
 
 Clear communication helps us address problems early. It means fewer surprises down the road.
 
-Residents of Provo should know exactly how decisions are made and where their money is spent — especially when it comes to essential services and infrastructure.
+Provo residents should know exactly how decisions are made and where their money is spent, especially when it comes to essential services and infrastructure.
 
 Better transparency makes for a stronger city. I promise to listen, keep you informed, and make sure your voice is heard.
 
