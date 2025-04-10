@@ -1,5 +1,7 @@
 # Issues
 
+![image](../assets/photos/mountain.webp)
+
 Provo is a great place to live. As we grow, we face important decisions about our future. Let's build a city that works for everyone who lives here.
 
 ## Economy and finance
