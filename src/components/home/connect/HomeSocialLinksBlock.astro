@@ -1,0 +1,41 @@
+---
+import { Image } from "astro:assets";
+import facebookLogo from '../../../assets/ui/facebook-logo-small.png';
+import instagramLogo from '../../../assets/ui/instagram-logo-small.png';
+---
+
+<div class="w-full flex flex-row gap-3">
+  <a 
+    class="social-button" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    href="https://www.facebook.com/adamforprovo"
+  >
+    <Image src={facebookLogo} alt="Facebook" class="social-icon" />
+    Facebook
+  </a>
+
+  <a 
+    class="social-button" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    href="https://www.instagram.com/adamforprovo"
+  >
+    <Image src={instagramLogo} alt="Instagram" class="social-icon" />
+    Instagram
+  </a>
+</div>
+
+<style>
+  @reference "../../../styles/global.css";
+
+  .social-button {
+    @apply h-14 w-full flex items-center justify-center gap-3; 
+    @apply rounded-xl text-gray-600 font-semibold;
+    @apply bg-white hover:bg-gray-100 transition;
+  }
+
+  .social-icon {
+    @apply size-6;
+  }
+</style>
