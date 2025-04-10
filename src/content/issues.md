@@ -6,11 +6,11 @@ Provo is a great place to live — and it can be even better. Let's meet the fut
 
 ### Provo should be a city where everyone can find a place to call home.
 
-![](../assets/photos/downtown.jpg)
+![](../assets/photos/houses.webp)
 
-Housing is one of Provo’s biggest challenges. Families are being priced out of homeownership, while students and single renters are increasingly filling homes in family neighborhoods.
+Housing is a key challenge for Provo. Families are being priced out of homeownership, while students and single renters are increasingly filling homes in family neighborhoods.
 
-**The root cause of our housing problem is scarcity.** We need more homes on the market, of all kinds — including rentals and student housing in locations that make sense.
+**The root cause of our housing problem is scarcity.** To solve it, we need more homes on the market, of all kinds — including rentals and student housing in locations that make sense.
 
 A more abundant housing market helps everyone. When students and working professionals can live closer to where they study and work, it relieves pressure on established neighborhoods and makes it easier for families to buy back in.
 
