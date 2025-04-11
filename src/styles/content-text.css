@@ -58,7 +58,7 @@
 
   .content-text h3 {
     @apply text-[1.125em];
-    margin-top: calc(var(--text-size) * 2.5);
+    margin-top: calc(var(--text-size) * 2.0);
   }
 
   /* Text */
