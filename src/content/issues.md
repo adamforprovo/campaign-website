@@ -2,7 +2,7 @@
 
 Provo is a great place to live — and it can be even better. Let's meet the future with practical, thoughtful solutions to our city's challenges.
 
-## Housing and growth
+## Housing and Growth
 
 ### Provo should be a city where everyone can find a place to call home.
 
@@ -32,7 +32,7 @@ By planning new growth around job centers and transit, we can reduce traffic and
 
 
 
-## Economy and finance
+## Economy and Finance
 
 ### Provo residents deserve to clearly understand how their money is spent.
 
@@ -44,7 +44,7 @@ Right now, Provo’s financial processes are difficult to understand. Citizens d
 * Evaluate subsidies and expenses to determine whether they align with public interests.
 * Openly discuss funding gaps so we can plan ahead wisely, instead of dealing with sudden tax hikes.
 
-## Street safety
+## Street Safety
 
 ### Provo’s streets should be safe for everyone, especially children.
 
@@ -56,7 +56,7 @@ Too many of our streets prioritize speed over safety, creating dangerous conditi
 * Invest in affordable traffic-calming measures like painted crosswalks, curb extensions, and bollards.
 * Draw on successful, proven street safety improvements from other cities.
 
-## Parks, trails, and outdoor spaces
+## Parks, Trails, and Outdoor Spaces
 
 ### Access to the outdoors is essential to Provo’s quality of life.
 

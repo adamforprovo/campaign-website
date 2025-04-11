@@ -70,9 +70,9 @@
 
   /* Image */
 
-  .content-text p:has(img:only-child) {
+  /* .content-text p:has(img:only-child) {
     @apply mx-auto px-0 xs:px-(--gutter-width);
-  }
+  } */
 
   .content-text img {
     @apply w-full object-cover my-[1.5em];
