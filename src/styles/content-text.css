@@ -5,16 +5,25 @@
   /* General */
 
   .content-text {
-    @apply text-content-base md:text-content-lg;
     @apply leading-relaxed text-content-primary;
     @apply mb-[4em];
 
+    --text-size: var(--text-content-base);
+    --paragraph-spacing: calc(var(--text-size) * 1.25);
     --gutter-width: 1rem;
+
+    font-size: var(--text-size);
   }
   
   @media (min-width: theme('screens.xs')) {
     .content-text {
       --gutter-width: 2rem;
+    }
+  }
+
+  @media (min-width: theme('screens.md')) {
+    .content-text {
+      --text-size: var(--text-content-lg);
     }
   }
 
@@ -26,32 +35,37 @@
 
   .content-text :is(h1, h2, h3, h4, h5, h6) {
     @apply font-bold leading-snug;
+    margin-bottom: var(--paragraph-spacing);
   }
 
   .content-text :is(h1, h2, h3, h4, h5, h6):first-child {
-    @apply mt-[1.25em];
+    margin-top: calc(var(--text-size) * 2.5);
   }
 
   .content-text :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
-    @apply mt-0;
+    margin-top: var(--paragraph-spacing);
   }
 
   .content-text h1 {
-    @apply text-[2.125em] mt-[2em] mb-[1em];
+    @apply text-[2.125em];
+    margin-top: calc(var(--text-size) * 4.0);
   }
 
   .content-text h2 {
-    @apply text-[1.625em] mt-[2em] mb-[0.75em];
+    @apply text-[1.625em];
+    margin-top: calc(var(--text-size) * 3.5);
   }
 
   .content-text h3 {
-    @apply text-[1.125em] mt-[1.5em] mb-[0.75em];
+    @apply text-[1.125em];
+    margin-top: calc(var(--text-size) * 2.5);
   }
 
   /* Text */
 
   .content-text p {
-    @apply my-[1.25em];
+    margin-top: var(--paragraph-spacing);
+    margin-bottom: var(--paragraph-spacing);
   }
 
   /* List */
