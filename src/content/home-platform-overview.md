@@ -13,11 +13,11 @@ I'm excited to bring this experience to the City Council Citywide 1 seat.
 
 ## Forward-thinking leadership.
 
-Provo faces both opportunities and challenges. It's time to make choices about where we’re headed — and what kind of city we want to become.
+Provo faces both opportunities and challenges. It's time to make important choices about where we’re headed.
 
-I’ll work to strengthen our economy, support families on the path to homeownership, improve active transportation and connectivity, and embrace thoughtful growth while preserving our quality of life.
+I’ll work to strengthen our economy, support families on the path to homeownership, improve active transportation and connectivity, and embrace careful growth while preserving our quality of life.
 
-Provo needs clear vision and direction. I believe in our city’s future, and I’m committed to helping us get there.
+Provo needs clear vision and direction. I believe in our city’s future, and I’m committed to getting us there.
 
 ## Transparency and communication.
 
@@ -29,8 +29,8 @@ Better transparency makes for a stronger city. I promise to listen, keep you inf
 
 ## A city that works for everyone.
 
-I love Provo's ability to bring people together across generations. It's one of our greatest strengths.
+I love our city's ability to bring people together across generations. It's one of our greatest strengths.
 
-This city has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a better future together.
+Provo has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a better future together.
 
 I’d be honored to earn your vote this November!
