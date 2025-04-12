@@ -36,6 +36,7 @@
   .content-text :is(h1, h2, h3, h4, h5, h6) {
     @apply font-bold leading-snug;
     margin-bottom: var(--paragraph-spacing);
+    scroll-margin-top: calc(var(--text-size) * 2.0);
   }
 
   .content-text :is(h1, h2, h3, h4, h5, h6):first-child {
@@ -53,7 +54,7 @@
 
   .content-text h2 {
     @apply text-[1.625em];
-    margin-top: calc(var(--text-size) * 3.5);
+    margin-top: calc(var(--text-size) * 4.0);
   }
 
   .content-text h3 {
@@ -75,7 +76,7 @@
 
   .content-text ul, .content-text ol {
     @apply my-[1em];
-    padding-left: calc(var(--gutter-width) + 1em);
+    padding-left: calc(var(--gutter-width) + 1.5em);
   }
 
   .content-text li {
@@ -89,7 +90,7 @@
   } */
 
   .content-text img {
-    @apply w-full object-cover my-[1.5em];
+    @apply w-full object-cover my-[1.75em];
   }
 
   /* Link */
