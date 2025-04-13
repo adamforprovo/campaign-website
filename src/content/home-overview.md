@@ -15,7 +15,7 @@ I'm excited to bring this experience to the City Council Citywide 1 seat.
 
 Provo faces both opportunities and challenges. It's time to make important decisions about where we're headed.
 
-I’ll work to strengthen our economy, support families on the path to homeownership, improve active transportation and connectivity, and embrace careful growth while preserving our quality of life.
+I’ll work to strengthen our economy, support families on the path to homeownership, improve active transportation and connectivity, and embrace careful growth while protecting our quality of life.
 
 Provo needs clear vision and direction. I believe in our city’s future, and I’m committed to getting us there.
 
