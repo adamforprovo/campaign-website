@@ -5,7 +5,7 @@ Provo has shaped my life.
 
 I've lived here as a student, a working professional, and now as a husband and father. I love our city and I'm proud to call it home.
 
-Serving on Provo’s Planning Commission, I’ve been an advocate for housing affordability, safer streets, and responsible economic policy.
+Serving on Provo’s Planning Commission, I’ve been an advocate for housing affordability, safe streets, and responsible economic policy.
 
 I'm excited to bring this experience to the City Council Citywide 1 seat.
 
@@ -13,7 +13,7 @@ I'm excited to bring this experience to the City Council Citywide 1 seat.
 
 ## Forward-thinking leadership.
 
-Provo faces both opportunities and challenges. It's time to make important choices about where we’re headed.
+Provo faces both opportunities and challenges. It's time to make important decisions about where we're headed.
 
 I’ll work to strengthen our economy, support families on the path to homeownership, improve active transportation and connectivity, and embrace careful growth while preserving our quality of life.
 
