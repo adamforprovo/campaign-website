@@ -44,7 +44,7 @@ import portraitImage from '../../../assets/photos/home-hero.webp';
 
   .gradient {
     @apply absolute w-full h-full -z-9;
-    @apply bg-linear-to-b from-black/0 via-black/0 via-50% to-black/50;
+    @apply bg-linear-to-b from-black/0 via-black/0 via-50% to-black/40;
   }
 
   .blurb {
@@ -62,6 +62,8 @@ import portraitImage from '../../../assets/photos/home-hero.webp';
   .action-button {
     @apply h-12 px-8 flex items-center justify-center; 
     @apply rounded-xl text-[1em] font-semibold;
-    @apply bg-theme-primary text-white hover:text-white/60 transition;
+    @apply bg-theme-crimson text-white hover:text-white/60 transition;
+    
+    box-shadow: 0 0.2rem 0 var(--color-theme-crimson-dark);
   }
 </style>

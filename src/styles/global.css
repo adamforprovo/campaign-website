@@ -16,7 +16,8 @@
   --breakpoint-xs: 30rem;
   --breakpoint-mdl: 60rem;
 
-  --color-theme-primary: #b43750;
+  --color-theme-crimson: #be2846;
+  --color-theme-crimson-dark: #780a32;
   --color-content-primary: var(--color-gray-700);
 
   --text-content-base: 1rem;
