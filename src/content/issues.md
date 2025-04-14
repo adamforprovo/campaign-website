@@ -24,17 +24,9 @@ Roads, pipes, and facilities need maintenance. Much of our underground infrastru
 
 Putting off maintenance saves money now, but it's not sustainable.
 
-### We're relying on big bets to balance the budget.
-
-In recent years, we've leaned on large, ambitious projects to attract economic growth — the Epic Sports Park, the airport, big box retailers, and more.
-
-**Big projects cost money and come with risk.** Some of these bets have paid off, but others may take years to prove themselves. If the returns fall short, it's difficult to change course.
-
 ### It's time to get the fundamentals right.
 
-Many of Provo's neighborhoods depend on subsidy. The property and sales tax they generate doesn't cover the long-term cost of the roads and pipes that service them.
-
-We need to help these places become financially self-sustaining.
+In recent years, we've leaned on big, ambitious projects to attract economic growth — the Epic Sports Park, the airport, big box retailers, and more. Some of these bets have paid off, but others may take years to prove their value.
 
 **A strong economy isn't built on one or two big ideas, but lots of small ones.** Large speculative projects stretch our funds. But small businesses, infill projects, and mixed-use developments grow our tax base while making better use of the infrastructure we already have. 
 
@@ -65,7 +57,7 @@ This includes gentle, neighborhood-scale options like small-lot homes, backyard 
 
 Provo is an economic hub. We offer education, jobs, recreation, and real opportunities for upward mobility.
 
-Utah County is projected to grow by over 160,000 people in the next decade. If we push this growth outside our city, we could see thousands of new commuters driving into Provo each day — straining our roads without bringing in new revenue.
+Utah County is projected to grow by over 160,000 people in the next decade. If we push this growth outside our city, we could see thousands of new commuters driving into Provo each day — straining our resources without bringing in new revenue.
 
 **We should plan new growth around employment centers, the university, and transit.** This will strengthen our tax base, reduce traffic, and provide a better quality of life for all our residents.
 
@@ -78,19 +70,19 @@ Utah County is projected to grow by over 160,000 people in the next decade. If w
 
 Our neighborhoods work best when everyone can get around safely — whether driving, cycling, or on foot.
 
-**However, some of our busiest walking and biking areas are surrounded by wide roads with fast-moving traffic.** These include school zones, downtown, and our university neighborhoods.
+However, some of our busiest walking and biking areas are surrounded by wide roads with fast-moving traffic. These include school zones, downtown, and our university neighborhoods.
 
-Too many of our streets put speed ahead of safety. The good news is we can change our priorities.
+**Too many of our streets put speed ahead of safety.** But with smart planning and better priorities, we can change that.
 
 ### Safety starts with better design.
 
 Street safety is a function of speed. When drivers slow down, crashes are less likely and less deadly.
 
-Many streets in Provo’s older neighborhoods are 45 to 50 feet wide. That's equivalent to four freeway lanes. When our streets look like highways, people drive like it.
+Many streets in Provo’s older neighborhoods are 45 to 50 feet wide. That's as wide as four freeway lanes. When our streets look like highways, people drive like they're on one.
 
-**We can improve street safety with simple design tools.** Curb extensions, painted crosswalks, roundabouts, and narrower lanes are time-tested ways to calm traffic.
+**We can make our streets safer with simple, proven tools.** Curb extensions, painted crosswalks, roundabouts, and narrower lanes all help calm traffic. Solutions like these have been time-tested in cities across the country.
 
-These ideas don't have to be expensive. We can try them out affordably using paint, bollards, and other low-cost materials. If successful, they can be made permanent.
+Improving safety doesn't have to be expensive. We can try these ideas out affordably using paint, bollards, and other low-cost materials. If they work, we can make them permanent.
 
 
 ## Parks, Trails, and the Outdoors
@@ -99,12 +91,16 @@ These ideas don't have to be expensive. We can try them out affordably using pai
 
 ![image](../assets/photos/trail.webp)
 
-Provo has incredible parks, trails, and natural spaces. As the city grows, we need to protect these spaces and plan ahead to keep them accessible for future generations.
+Provo has incredible parks, trails, and natural spaces. As the city grows, we need to protect them and keep them accessible for future generations.
 
-### We need to maintain what we have and open up new opportunities.
+**Shared outdoor spaces strengthen communities and support our health.** We should prioritize their upkeep and improve access from nearby neighborhoods. Trail connections should be safe, convenient, and easy to use for all ages.
 
-The Provo River Trail is one of our most beloved assets. It connects neighborhoods, provides recreation, and brings people closer to nature.
+### The Provo River is a beloved resource. Let's make better use of it.
 
-We should prioritize its upkeep and improve access from nearby neighborhoods. Trail connections should be safe, pleasant, and easy to use.
+The Provo River Trail connects neighborhoods, encourages recreation, and brings people closer to nature. It’s one of our most valuable amenities.
 
-**We should also reevaluate how we're using land along the river.** In some areas, commercial zoning and parking lots block access to the waterfront. As these areas redevelop, we have a rare chance to open up more of the river to the community.
+But in many areas, we've turned our back on the river. Much of its frontage is lined with fences, parking lots, and commercial sites. We haven't made the most of it as a public space.
+
+**We should embrace the Provo River as a gathering place.** With thoughtful planning, it could become a vibrant destination for both residents and visitors.
+
+As riverfront properties redevelop, we have the opportunity open up more of the river to the public. This could be one of the most well-loved and iconic parts of Provo.
