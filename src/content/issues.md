@@ -57,9 +57,9 @@ This includes gentle, neighborhood-scale options like small-lot homes, backyard 
 
 Provo is an economic hub. We offer education, jobs, recreation, and real opportunities for upward mobility.
 
-Utah County is projected to grow by over 160,000 people in the next decade. If we push this growth outside our city, we could see thousands of new commuters driving into Provo each day — straining our resources without bringing in new revenue.
+**Utah County is projected to grow by over 160,000 people in the next decade.** If we push this growth outside our city, we could see thousands of new commuters driving into Provo each day — straining our resources without bringing in new revenue.
 
-**We should plan new growth around employment centers, the university, and transit.** This will strengthen our tax base, reduce traffic, and provide a better quality of life for all our residents.
+We should plan new growth around employment centers, the university, and transit. This will strengthen our tax base, reduce traffic, and provide a better quality of life for all our residents.
 
 
 ## Safe Streets
@@ -68,11 +68,11 @@ Utah County is projected to grow by over 160,000 people in the next decade. If w
 
 ![image](../assets/photos/bike-street.webp)
 
-Our neighborhoods work best when everyone can get around safely — whether driving, cycling, or on foot.
+**Our neighborhoods work best when everyone can get around safely** — whether driving, cycling, or on foot.
 
 However, some of our busiest walking and biking areas are surrounded by wide roads with fast-moving traffic. These include school zones, downtown, and our university neighborhoods.
 
-**Too many of our streets put speed ahead of safety.** But with smart planning and better priorities, we can change that.
+Too many of our streets put speed ahead of safety. But with smart planning and better priorities, we can change that.
 
 ### Safety starts with better design.
 
@@ -97,8 +97,8 @@ Provo has incredible parks, trails, and natural spaces. We need to protect them 
 
 ### The Provo River is a beloved resource. Let's make better use of it.
 
-The Provo River Trail connects neighborhoods and brings people closer to nature. It’s one of our most valuable amenities.
+The Provo River Trail connects neighborhoods and brings people closer to nature. It’s one of our most valuable assets.
 
 But in many areas, we've turned our back on the river. Much of its frontage is lined with fences, parking lots, and commercial sites.
 
-**We should embrace the Provo River as a gathering place.**  As these areas redevelop, we have the chance to open up more of the river to the community. This could be one of the most well-loved and iconic parts of Provo.
+**We should embrace the Provo River as a gathering place.**  As these areas redevelop, we have the chance to open up more of the river to the community. With better amenities and access, our riverfront could become an iconic destination for residents and visitors.
