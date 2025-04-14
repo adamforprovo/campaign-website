@@ -10,7 +10,7 @@
 
 ### Provo needs a strong economy and a sustainable budget.
 
-![image](../assets/photos/downtown.jpg)
+![](../assets/photos/downtown.jpg)
 
 To keep Provo thriving for years to come, we need to build a resilient economy and plan for the future.
 
@@ -37,7 +37,7 @@ When we invest in existing places, we get a better return on our money. This kin
 
 ### Provo should be a city where everyone can find a place to call home.
 
-![image](../assets/photos/house-byu.webp)
+![](../assets/photos/house-byu.webp)
 
 Housing is a key challenge for Provo. Families are being priced out of homeownership, while students and single renters fill up homes in family neighborhoods.
 
@@ -66,7 +66,7 @@ We should plan new growth around employment centers, the university, and transit
 
 ### Provo’s streets should be safe for everyone, especially kids.
 
-![image](../assets/photos/bike-street.webp)
+![](../assets/photos/bike-street.webp)
 
 **Our neighborhoods work best when everyone can get around safely — whether driving, cycling, or on foot.**
 
@@ -89,7 +89,7 @@ These solutions don't have to be expensive. We can try them out affordably using
 
 ### Access to the outdoors is essential to Provo's quality of life.
 
-![image](../assets/photos/trail.webp)
+![](../assets/photos/trail.webp)
 
 Provo has incredible parks, trails, and natural spaces. We need to protect them and keep them accessible for future generations.
 
