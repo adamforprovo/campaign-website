@@ -4,9 +4,15 @@ import "../styles/global.css";
 import Navbar from "../components/navbar/Navbar.astro";
 import Footer from "../components/Footer.astro";
 
-const { title: contentTitle, navbarTransparent = false } = Astro.props;
-const siteTitle = "Adam Shin for Provo";
-const pageTitle = contentTitle ? `${contentTitle} - ${siteTitle}` : siteTitle;
+const siteTitle = "Adam Shin for Provo City Council";
+const defaultDescription = "Strong Provo, strong future."
+
+const { site } = Astro;
+const { title, description, navbarTransparent = false } = Astro.props;
+
+const pageTitle = title ? `${title} - ${siteTitle}` : siteTitle;
+const pageUrl = new URL(Astro.url.pathname, site).toString();
+const pageDescription = description ?? defaultDescription;
 ---
 
 <!DOCTYPE html>
@@ -20,6 +26,20 @@ const pageTitle = contentTitle ? `${contentTitle} - ${siteTitle}` : siteTitle;
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
   <title>{pageTitle}</title>
+
+  <!-- Meta description -->
+  <meta name="description" content="Official site for Adam Shin, candidate for Provo City Council. Learn about the vision for housing, transparency, and safe neighborhoods.">
+
+  <!-- Meta keywords -->
+  <meta name="keywords" content="Provo, city council, Adam Shin, election, Utah politics, housing, transparency, safe streets">
+
+  <!-- Social sharing -->
+  <meta property="og:title" content={pageTitle}>
+  <meta property="og:description" content={pageDescription}>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://adamforprovo.com/public/assets/social-preview.jpg">
+  <meta property="og:url" content={pageUrl}>
+
 </head>
 
 <body>
