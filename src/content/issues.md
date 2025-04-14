@@ -80,9 +80,9 @@ Street safety is a function of speed. When drivers slow down, crashes are less l
 
 Many streets in Provo’s older neighborhoods are 45 to 50 feet wide. That's as wide as four freeway lanes. When our streets look like highways, people drive like they're on one.
 
-**We can make our streets safer with simple, proven tools.** Curb extensions, painted crosswalks, roundabouts, and narrower lanes all help calm traffic. Solutions like these have been time-tested in cities across the country.
+**We can improve street safety with simple tools.** Curb extensions, painted crosswalks, roundabouts, and narrower lanes are all proven ways to help calm traffic.
 
-Improving safety doesn't have to be expensive. We can try these ideas out affordably using paint, bollards, and other low-cost materials. If they work, we can make them permanent.
+These solutions don't have to be expensive. We can try them out affordably using paint, bollards, and other low-cost materials. If they work, we can make them permanent.
 
 
 ## Parks, Trails, and the Outdoors
@@ -91,16 +91,14 @@ Improving safety doesn't have to be expensive. We can try these ideas out afford
 
 ![image](../assets/photos/trail.webp)
 
-Provo has incredible parks, trails, and natural spaces. As the city grows, we need to protect them and keep them accessible for future generations.
+Provo has incredible parks, trails, and natural spaces. We need to protect them and keep them accessible for future generations.
 
-**Shared outdoor spaces strengthen communities and support our health.** We should prioritize their upkeep and improve access from nearby neighborhoods. Trail connections should be safe, convenient, and easy to use for all ages.
+**Shared outdoor spaces make communities stronger.** Getting outside improves our health and our connections with neighbors. Parks and trails should be safe, convenient, and easy to use for all ages.
 
 ### The Provo River is a beloved resource. Let's make better use of it.
 
-The Provo River Trail connects neighborhoods, encourages recreation, and brings people closer to nature. It’s one of our most valuable amenities.
+The Provo River Trail connects neighborhoods and brings people closer to nature. It’s one of our most valuable amenities.
 
-But in many areas, we've turned our back on the river. Much of its frontage is lined with fences, parking lots, and commercial sites. We haven't made the most of it as a public space.
+But in many areas, we've turned our back on the river. Much of its frontage is lined with fences, parking lots, and commercial sites.
 
-**We should embrace the Provo River as a gathering place.** With thoughtful planning, it could become a vibrant destination for both residents and visitors.
-
-As riverfront properties redevelop, we have the opportunity open up more of the river to the public. This could be one of the most well-loved and iconic parts of Provo.
+**We should embrace the Provo River as a gathering place.**  As these areas redevelop, we have the chance to open up more of the river to the community. This could be one of the most well-loved and iconic parts of Provo.
