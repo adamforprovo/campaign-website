@@ -26,7 +26,7 @@ Putting off maintenance saves money now, but it's not sustainable.
 
 ### It's time to get the fundamentals right.
 
-In recent years, we've leaned on big, ambitious projects to attract economic growth — the Epic Sports Park, the airport, big box retailers, and more. Some of these bets have paid off, but others may take years to prove their value.
+In recent years, we've leaned on big, ambitious projects to attract economic growth: the Epic Sports Park, the airport, big box retail, and more. Some of these bets have paid off, but others may take years to prove their value.
 
 **A strong economy isn't built on one or two big ideas, but lots of small ones.** Large speculative projects stretch our funds. But small businesses, infill projects, and mixed-use developments grow our tax base while making better use of the infrastructure we already have. 
 
@@ -68,7 +68,7 @@ We should plan new growth around employment centers, the university, and transit
 
 ![image](../assets/photos/bike-street.webp)
 
-**Our neighborhoods work best when everyone can get around safely** — whether driving, cycling, or on foot.
+**Our neighborhoods work best when everyone can get around safely — whether driving, cycling, or on foot.**
 
 However, some of our busiest walking and biking areas are surrounded by wide roads with fast-moving traffic. These include school zones, downtown, and our university neighborhoods.
 
