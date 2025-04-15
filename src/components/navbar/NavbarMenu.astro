@@ -2,12 +2,11 @@
 import { Image } from "astro:assets";
 import menuCloseIcon from '../../assets/ui/nav-menu-close.svg';
 
+import { navLinks } from './NavLinks.ts';
+
 const links = [
   { href: "/", text: "Home" },
-  { href: "/about", text: "About Adam" },
-  { href: "/issues", text: "Issues" },
-  { href: "/get-involved", text: "Get Involved" },
-  { href: "/contact", text: "Contact" },
+  ...navLinks,
 ];
 ---
 

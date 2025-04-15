@@ -5,14 +5,11 @@ import menuOpenIcon from '../../assets/ui/nav-menu-open.svg';
 import menuOpenIconWhite from '../../assets/ui/nav-menu-open-white.svg';
 import NavbarMenu from './NavbarMenu.astro';
 
+import { navLinks } from './NavLinks.ts';
+
 const { transparent = false } = Astro.props;
 
-const links = [
-  { href: "/about", text: "About Adam" },
-  { href: "/issues", text: "Issues" },
-  { href: "/get-involved", text: "Get Involved" },
-  { href: "/contact", text: "Contact" },
-];
+const links = navLinks;
 ---
 
 <header class={`navbar ${transparent ? "navbar-transparent" : ""}`}>
