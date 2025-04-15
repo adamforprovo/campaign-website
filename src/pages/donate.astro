@@ -1,6 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import ContentText from "../components/ContentText.astro";
+import DonateButtons from "../components/DonateButtons.astro";
 ---
 
 <MainLayout title="Get Involved">
@@ -8,7 +9,11 @@ import ContentText from "../components/ContentText.astro";
   <ContentText>
     <h1>Donate</h1>
 
-    <p>Thanks for your support!</p>
+    <p>Your support helps build a stronger future for Provo. Thank you!</p>
+
+    <div class="my-8">
+      <DonateButtons />
+    </div>
 
   </ContentText>
 

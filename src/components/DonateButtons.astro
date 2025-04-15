@@ -1,0 +1,26 @@
+---
+const options = [
+  { label: "$25",     url: "https://donate.stripe.com/6oE8x48iL9BU5Ik8ww" },
+  { label: "$50",     url: "https://donate.stripe.com/eVa7t056z4hAdaM6op" },
+  { label: "$100",    url: "https://donate.stripe.com/bIY6oWbuX6pI8UweUW" },
+  { label: "$250",    url: "https://donate.stripe.com/dR69B88iL29s0o09AD" },
+  { label: "$500",    url: "https://donate.stripe.com/00g5kSdD501k1s46os" },
+  { label: "Other",   url: "https://donate.stripe.com/3csdRo8iLbK2fiUbIN" },
+];
+---
+
+<div class="w-full grid grid-cols-3 gap-3">
+  {options.map(({ label, url }) => (
+    <a
+      href={url}
+      class="
+        h-16 px-4 flex items-center justify-center text-center
+        rounded-xl bg-gray-200 border-1 border-gray-300
+        text-[1.1em] font-semibold text-content-primary leading-snug
+        hover:bg-gray-300 hover:no-underline transition
+      "
+    >
+      {label}
+    </a>
+  ))}
+</div>
