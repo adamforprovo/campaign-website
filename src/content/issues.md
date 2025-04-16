@@ -14,7 +14,7 @@
 
 To keep Provo thriving for years to come, we need to build a resilient economy and plan for the future.
 
-**Right now, our budget is showing signs of stress.** Sales tax revenue — our city's main source of income — is falling by millions of dollars each year. At the same time, rising labor and material costs are driving up our expenses.
+**Right now, our budget is showing signs of stress.** Sales tax revenue — our city's main source of income — has plateaued over the last several years. But our expenses are increasing due to rising labor and material costs.
 
 ### Delayed maintenance is a form of hidden debt.
 
