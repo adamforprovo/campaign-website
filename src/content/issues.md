@@ -18,15 +18,15 @@ To keep Provo thriving for years to come, we need to build a resilient economy a
 
 ### Delayed maintenance is a form of hidden debt.
 
-Roads, pipes, and facilities need maintenance. Much of our underground infrastructure is overdue for replacement. Some of our water lines are almost 100 years old.
+Roads, pipes, and facilities need maintenance. Much of our underground infrastructure is overdue for replacement. Some of our water lines are over 100 years old.
 
-**A recent report found we’re underfunding our water system by $10 million a year.** Instead of reinvesting in the system, we’ve spent that money elsewhere to cover for declining tax revenue.
+**A recent report found we’re underfunding our water system by $10 million a year.** Instead of reinvesting in the system, we’ve spent that money elsewhere to make up for flattening tax revenue.
 
 Putting off maintenance saves money now, but it's not sustainable.
 
 ### It's time to get the fundamentals right.
 
-In recent years, we've leaned on big, ambitious projects to attract economic growth: the Epic Sports Park, the airport, big box retail, and more. Some of these bets have paid off, but others may take years to prove their value.
+In recent years, we've leaned on big, ambitious projects to attract economic growth — the Epic Sports Park, the airport, big box retail, and more. Some of these bets have paid off. But others may take years to prove their value.
 
 **A strong economy isn't built on one or two big ideas, but lots of small ones.** Large speculative projects stretch our funds. But small businesses, infill projects, and mixed-use developments grow our tax base while making better use of the infrastructure we already have. 
 
