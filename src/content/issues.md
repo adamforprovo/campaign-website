@@ -10,7 +10,7 @@
 
 ### Provo needs a strong economy and a sustainable budget.
 
-![](../assets/photos/downtown.jpg)
+![](../assets/photos/downtown.webp)
 
 To keep Provo thriving for years to come, we need to build a resilient economy and plan for the future.
 
