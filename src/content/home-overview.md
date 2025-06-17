@@ -1,36 +1,28 @@
 
 ## Hi — I'm Adam.
 
-Provo has shaped my life.
+I’m running for City Council because I care about Provo’s future.
 
-I've lived here as a student, a working professional, and now as a husband and father. I love our city and I'm proud to call it home.
+Provo has been my home through many chapters of life. I’ve lived here as a student, a working professional, and now a husband and father. My wife and I both attended BYU, and we’re excited to be starting our family here.
 
-Serving on Provo’s Planning Commission, I’ve been an advocate for housing affordability, safe streets, and responsible economic policy.
-
-I'm excited to bring this experience to the City Council Citywide 1 seat.
+Our city has so much to offer: education, recreation, career opportunities, and a welcoming, family-oriented community. These are the things that drew me here. I want to help carry them forward for the next generation.
 
 ![](../assets/photos/mountain.webp)
 
 ## Forward-thinking leadership.
 
-Provo faces both opportunities and challenges. It's time to make important decisions about where we're headed.
+Provo’s future is full of potential, but we also face challenges. City revenues are declining, infrastructure costs are rising, and homeownership is slipping out of reach for many families.
 
-I’ll work to strengthen our economy, support families on the path to homeownership, improve transportation and connectivity, and embrace careful growth while protecting our quality of life.
+We need to meet these challenges with thoughtful, practical solutions.
 
-Provo needs clear vision and direction. I believe in our city’s future, and I’m committed to getting us there.
+Serving on Provo’s Planning Commission, I’ve been an advocate for responsible economic policy, housing affordability, safe streets, and protecting the outdoors.
 
-## Transparency and communication.
-
-Clear communication helps us address problems early. It means fewer surprises down the road.
-
-Provo residents should know exactly how decisions are made and where their money is spent, especially when it comes to essential services and infrastructure.
-
-Better transparency makes for a stronger city. I promise to listen, keep you informed, and make sure your voice is heard.
+I believe local government works best when it supports personal freedom and individual rights. As a member of the City Council, I’ll continue to advocate for these principles.
 
 ## A city that works for everyone.
 
 I love our city's ability to bring people together across generations. It's one of our greatest strengths.
 
-Provo has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a better future together.
+Provo has a place for all of us: longtime residents, young families, students, and everyone in between. Let’s build a stronger future together.
 
 I’d be honored to earn your vote this November!
