@@ -12,7 +12,7 @@
 
 ![](../assets/photos/downtown.webp)
 
-To keep Provo thriving for years to come, we need to build a resilient economy and plan for the future.
+To keep Provo thriving for years to come, we need to build a resilient economy.
 
 **Right now, our budget is showing signs of stress.** Sales tax revenue — our largest source of general fund income — has been falling for the past four years. At the same time, infrastructure costs are rising due to increasing labor and material prices.
 
@@ -103,8 +103,8 @@ We have limited amounts of open space in our canyons and foothills. New developm
 
 ### The Provo River is a valuable amenity. Let's make better use of it.
 
-We have an incredible trail along the Provo River. It connects neighborhoods, brings people closer to nature, and is one of our most beloved assets.
+We have an incredible trail along the Provo River. It connects neighborhoods and brings people closer to nature.
 
-In many areas, we've turned our back on the river. We've lined it with fences, parking lots, and commercial sites.
+In many areas, though, we've turned our back on the river. We've lined it with fences, parking lots, and commercial sites.
 
 **We should embrace the Provo River as a gathering place.**  As these areas redevelop, we can open up more of the river to the community. With better amenities, our riverfront could become an iconic destination for residents and visitors.
